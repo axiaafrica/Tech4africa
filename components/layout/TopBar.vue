@@ -2,7 +2,7 @@
     <div class="navbar fixed top-0 left-0 px-3 md:px-[70px] mx-auto py-4 w-full z-30 bg-white overflow-hidden">
         <div class="navbox flex justify-between items-center overflow-hidden">
             <div class="logobox">
-               <img src="../../assets/images/homepage/TFA LOGO.svg" alt="" class="logo-img w-28">
+               <img src="../../assets/images/homepage/TFALOGO.svg" alt="" class="logo-img w-28">
             </div>
             <div class="navlinks hidden md:block">
                 <ul class="nav-links flex items-center gap-14 headline text-drkgrey">
