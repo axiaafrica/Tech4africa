@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap');
+
+
+html,
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.shadowsm {
+    box-shadow: rgba(16, 24, 40, 0.05);
+}
+.pinkbg{
+    border-radius: 40px;
+    background: linear-gradient(123deg, #FFE5C0 0%, #FFE6C3 99.99%);
+}
+.rainbow{
+    background: linear-gradient(134deg, #202054 31.83%, #AB2638 57.88%, #F0B73F 85.91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bluebtn{
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: 1px solid #2D3582;
+    background: #202054;
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.redbtn{
+    border-radius: 40px;
+    border: 1px solid var(--AXIA-RED, #AB2638);
+    background: #FFFBF4;
+}
+.border-rit{
+    border-right: 1px solid #F1F1F1;
+}
+.container-center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bordered-title{
+    border: 1px solid #EDEDF1;
+    border-radius: 6px;
+    padding: 4px;
+}
+.bordered-box-outer{
+    border: 1px solid #EDEDF1;
+    border-radius: 6px;
+    padding: 12px;
+}
+.pink-container-b{
+    border: 1px solid #F1F1FA;
+    background-color: #FFFBF4;
+    padding: 12px 16px;
+    border-radius: 6px;
+}
+.pink-container{
+    background-color: #FFFBF4;
+    padding: 12px 16px;
+    border-radius: 6px;
+}

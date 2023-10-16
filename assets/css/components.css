@@ -1,0 +1,70 @@
+.bouncy-up {
+    animation: bouncy-up 17s ease infinite;
+}
+
+
+@keyframes bouncy-up {
+
+    0%,
+    100% {
+        transform: translateY(35px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+
+}
+
+.bouncy-down {
+    animation: bouncy-down 17s ease infinite;
+}
+
+@keyframes bouncy-down {
+
+    0%,
+    100% {
+        transform: translateY(-35px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+
+}
+
+.ship-1 {
+    animation: ship-1 2s ease;
+}
+
+@keyframes ship-1 {
+
+    0% {
+        transform: translateX(-40px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+
+}
+
+.ship-2 {
+    animation: ship-2 2s ease;
+}
+
+@keyframes ship-2 {
+
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+
+}
