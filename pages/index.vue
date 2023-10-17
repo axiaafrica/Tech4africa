@@ -7,6 +7,7 @@
     <LazyLandingWhy />
     <LazyLandingCourses />
     <LazyLandingContribute />
+    <LazyLandingReviews />
   
     <!-- 
     <LazyLandingCustom />
