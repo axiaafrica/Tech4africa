@@ -1,5 +1,77 @@
 import Twitter from '../../assets/images/icons/twitter.svg'
 import LinkedIn from '../../assets/images/icons/linkedin.svg'
+import mentor1 from '../../assets/images/homepage/mentorman.png'
+import mentor2 from '../../assets/images/homepage/mentorlady.png'
+import cardify from '../../assets/images/icons/cardify.svg'
+import propel from '../../assets/images/icons/propel.svg'
+import clickpay from '../../assets/images/icons/clickpay.svg'
+import bootcamp from '../../assets/images/homepage/bootcamp.png'
+import wale from '../../assets/images/homepage/wale.png'
+import vang from '../../assets/images/homepage/vang.png'
+
+export const blogs = [
+	{
+	 id: 1,
+	 picture: wale,
+	 date: '23 Mar 2023',
+     author: "By Samuel Mungadze",
+     title: "Nigeria’s Axia Africa hosts free tech skills training camp"
+	},
+	{
+	 id: 2,
+	 picture: vang,
+	 date: '23 Mar 2023',
+	 author: "Vanguard News",
+	 title: "Edtech firm organizes bootcamp to empower Africa’s innovators."
+	}
+]
+export const editions = [
+	{
+	 edition: '1st',
+	 sponsor: [clickpay],
+     summery: "The partnership between the Tech for Africa Bootcamp and ClickPay was a significant collaboration that had a positive impact on the bootcamp's participants. ClickPay, a payment processing platform, played a vital role in supporting the bootcamp and enhancing the learning experience for participants.",
+     image: bootcamp
+	},
+	{
+	 edition: '2nd',
+	 sponsor: [propel, cardify],
+	 summery: "Tech for Africa Bootcamp by Axia Africa provide individuals with first-hand knowledge and practical skills necessary to kickstart their journey in the tech industry.",
+	 image: bootcamp
+	}
+]
+export const mentors = [
+	{   
+		id: 1,
+		picture: mentor1,
+		mentorname: "Sam Femi",
+		job: "Product management mentor",
+		socialicon: LinkedIn,
+		socialhandle: "Thesamfemi" 
+	},
+	{
+		id: 2,
+		picture: mentor2,
+		mentorname: "Sam Femi",
+		job: "Product design mentor",
+		socialicon: LinkedIn,
+		socialhandle: "Thesamfemi" 
+	},
+	{   id: 3,
+		picture: mentor2,
+		mentorname: "Sam Femi",
+		job: "Data analytics mentor",
+		socialicon: LinkedIn,
+		socialhandle: "Thesamfemi" 
+	},
+	{   
+		id: 4,
+		picture: mentor2,
+		mentorname: "Sam Femi",
+		job: "Product management mentor",
+		socialicon: LinkedIn,
+		socialhandle: "Thesamfemi" 
+	}
+]
 
 export const cards = [
 	{

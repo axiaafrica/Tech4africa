@@ -2,7 +2,6 @@
   <div class="overflow-hidden">
     <LazyLayoutTopBar />
 
-
     <!-- Default content goes here -->
 
     <div>
@@ -10,7 +9,6 @@
     </div>
     <!-- Default content goes here -->
 
-    <!-- <LazyLayoutFooter /> -->
-
+    <LazyLayoutFooter />
   </div>
 </template>

@@ -29,6 +29,7 @@ body {
     background: #202054;
     /* Shadow/xs */
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
 }
 .redbtn{
     border-radius: 40px;
@@ -62,4 +63,8 @@ body {
     background-color: #FFFBF4;
     padding: 12px 16px;
     border-radius: 6px;
+}
+.pink-grad-btn{
+    border-radius: 40px;
+    background-image: (linear-gradient(123deg, #FFE5C0 0%, #FFFBF4 55.73%, #FFE6C3 99.99%));
 }

@@ -1,26 +1,23 @@
 <template>
   <main class="">
     <LazyLandingHeader />
-    <LazyLandingRatings/>
+    <LazyLandingRatings />
     <LazyLandingMission />
     <LazyLandingPartner />
     <LazyLandingWhy />
     <LazyLandingCourses />
     <LazyLandingContribute />
     <LazyLandingReviews />
-  
-    <!-- 
-    <LazyLandingCustom />
-    <LazyLandingAbout />
-    <LazyLandingContact /> -->
-    <!-- <LazyLandingPerformance/> -->
+    <LazyLandingMentors />
+    <LazyLandingEditions />
+    <LazyLandingBlog />
   </main>
 </template>
 
 <script setup lang="ts">
 definePageMeta({
-  layout: 'default'
-})
+  layout: "default",
+});
 </script>
 
 <style scoped></style>

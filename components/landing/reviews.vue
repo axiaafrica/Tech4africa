@@ -5,23 +5,11 @@
             <div class="pink-container-b text-xl">Reviews from beneficiaries of TFA</div>
          </div>
        </div>
-       <div class="bigtitle text-[28px] font-semibold text-blkblk mt-10 text-center px-40"> Here's how each type of partnership can contribute to the success of the "Tech for Africa Bootcamp by Axia Africa</div>
-    
-       <!-- <LegoMarqueeBanner :speed="0.5" :hovered-speed="0.25" class="w-96 md:w-144 text-xl">
-          <LegoMarqueeBannerLeft class="my-2">
-             <div v-for="item in items" :key="item" class="whitespace-nowrap px-5 border hover:border-gray-400 transition mr-4 py-2 rounded-full bg-gray-50">
-                  {{ item }}
-             </div>
-          </LegoMarqueeBannerLeft>
-          <LegoMarqueeBannerRight class="my-2">
-             <div v-for="item in items" :key="item" class="whitespace-nowrap px-5 border hover:border-gray-400 transition mr-4 py-2 rounded-full bg-gray-50">
-                 {{ item }}
-             </div>
-          </LegoMarqueeBannerRight>
-      </LegoMarqueeBanner> -->
-	   
-     <div class="reviewboxx  flex flex-col gap-6 mt-12">
-      <Vue3Marquee :direction="'reverse'" :duration="50" >
+       <div class="bigtitle text-[28px] font-semibold text-blkblk mt-10 text-center px-40"> Here's how each type of partnership can contribute to the success of the "Tech for Africa Bootcamp by Axia Africa</div> 
+     <div class="reviwss relative">
+     <div class="overlay absolute w-full h-full top-0 left-0 z-30"></div>
+      <div class="reviewboxx  flex flex-col gap-6 mt-12">
+        <Vue3Marquee :direction="'reverse'" :duration="50" >
             <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
             <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
              <div class="titlee flex justify-between items-center mb-4">
@@ -31,8 +19,8 @@
              <div class="note text-semiblk text-base">{{ card.comment }}</div>
            </div>
         </div>
-     </Vue3Marquee>
-     <Vue3Marquee :duration="50" >
+        </Vue3Marquee>
+        <Vue3Marquee :duration="50" >
             <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
             <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
              <div class="titlee flex justify-between items-center mb-4">
@@ -42,8 +30,8 @@
              <div class="note text-semiblk text-base">{{ card.comment }}</div>
            </div>
         </div>
-     </Vue3Marquee>
-     <Vue3Marquee :direction="'reverse'" :duration="50" >
+        </Vue3Marquee>
+        <Vue3Marquee :direction="'reverse'" :duration="50" >
             <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
             <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
              <div class="titlee flex justify-between items-center mb-4">
@@ -53,28 +41,10 @@
              <div class="note text-semiblk text-base">{{ card.comment }}</div>
            </div>
         </div>
-     </Vue3Marquee>
+        </Vue3Marquee>
      </div>
-	    
-     <!-- <Vue3Marquee
-		   :pauseOnHover="true"
-            @onPause="playState = 'paused'"
-            @onResume="playState = 'playing'"
-			:duration="300"
-			:gradient="true"
-			:gradient-width="`0%`"
-			class="grid grid-cols-3 gap-10"
-		>
-			<div v-for="card in [...cards, ...cards]" :key="card.comment" class=" title-text bordered-box-outer text-xl">
-				<div class="pink-container text-semiblk">
-             <div class="titlee flex gap-3 items-center mb-4">
-                 <div class="icon"><img :src="card.img" alt="" class=""></div>
-                 <div class="maintitle text-greytext text-xl font-semibold">{{ card.name }}</div>
-             </div>
-             <div class="note text-semiblk">{{ card.comment }}</div>
-           </div>
-			</div>
-		</Vue3Marquee> -->
+     <div class="bluebtn-box flex justify-center mt-12 font-semibold"><div class="bluebtn">See more reviews</div></div>
+     </div>
     </div>
 </template>
 
@@ -84,8 +54,6 @@
 <script setup >
 import { Vue3Marquee } from 'vue3-marquee'
 import { cards } from '../landing/landingstore'
-
-const items = ['Vue', 'React', 'Angular']
 
 // const cards = [
 // 	{
@@ -132,14 +100,7 @@ const items = ['Vue', 'React', 'Angular']
 
 </script>
 <style scoped>
-.marquee-container {
-  --mask: linear-gradient(to right,
-      rgba(0,0,0, 0) 0, rgba(0,0,0, 0) 5%,
-      rgba(0,0,0, 1) 20%, rgba(0,0,0, 1) 80%,
-      rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
-  ) 100% 50% / 100% 100%;
-
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
+.revoverlay{
+  background-image: linear-gradient(to right, rgba(250, 251, 251, 0.00) 10%, #FFF 80%, rgba(250, 251, 251, 0.00) 10%)
 }
 </style>
