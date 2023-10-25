@@ -1,7 +1,9 @@
 <template>
-  <div class="partners w-full bg-litpink overflow-x-hidden mt-10 flex justify-center">
-    <div class="partnerbox max-w-[1200px] py-14">
-      <ul class="partner-icons flex justify-center items-center gap-14">
+  <div
+    class="partners w-full bg-litpink px-3 md:px-0 overflow-x-hidden mt-10 flex justify-center"
+  >
+    <div class="partnerbox max-w-[1200px] py-8 md:py-14">
+      <ul class="partner-icons flex justify-center items-center gap-5 md:gap-14">
         <li class="icon">
           <img
             src="../../assets/images/icons/axia.svg"
@@ -31,7 +33,7 @@
           />
         </li>
       </ul>
-      <div class="textss text-center mt-8 text-2xl text-litblk">
+      <div class="textss text-center mt-8 text-sm md:text-2xl text-litblk">
         Some of the partners we have worked with.
       </div>
     </div>

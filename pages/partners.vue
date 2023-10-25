@@ -6,6 +6,7 @@
     <LazyPartnersPreviews />
     <LazyPartnersPeditions />
     <LazyLandingBlog />
+    <!-- <LazyPartnersMentform /> -->
   </div>
 </template>
 

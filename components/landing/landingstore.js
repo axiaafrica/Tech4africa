@@ -12,6 +12,39 @@ import Network from "@/assets/images/icons/networking.svg";
 import Admission from "@/assets/images/icons/admission.svg";
 import Success from "@/assets/images/icons/success.svg";
 import Mentorship from "@/assets/images/icons/mentorship.svg";
+import marketing from "@/assets/images/homepage/dmarketing.png"
+import design from "@/assets/images/homepage/pdesign.png"
+import dev from "@/assets/images/homepage/fdev.png" 
+import analysis from "@/assets/images/homepage/danalysis.png"
+import manage from "@/assets/images/homepage/pmanage.png"
+
+export const courses = [
+	{
+		img: marketing,
+		title: 'Digital Marketing',
+		desc: "Explore strategies for marketing products on digital platforms"
+	},
+	{
+		img: design,
+		title: 'Product Design',
+		desc: "Develop user-friendly applications, websites, and digital interfaces."
+	},
+    {
+		img: dev,
+		title: 'Frontend Developement',
+		desc: "Gain hands-on experience in coding and building the user interfaces."
+	},
+    {
+		img: analysis,
+		title: 'Data Analytics',
+		desc: "Explore data  analysis and make informed decisions based on data-driven insights."
+	},
+	{
+		img: manage,
+		title: 'Product Management',
+		desc: "Discover the fundamentals of managing tech products from ideation to launch."
+	}
+]
 
 export const contribute = [
 	{

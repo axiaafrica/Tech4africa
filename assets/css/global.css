@@ -40,7 +40,7 @@ body {
     border-right: 1px solid #F1F1F1;
 }
 .container-center{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .bordered-title{
@@ -64,16 +64,4 @@ body {
     padding: 12px 16px;
     border-radius: 6px;
 }
-.titlebtn {
-    border-radius: 5px;
-    border: 1px solid #f8f8ff;
-    background: #f8f8ff;
-    backdrop-filter: blur(2px);
-    padding: 12px 16px;
-  }
-  .outerbtn {
-    padding: 4px;
-    border-radius: 6px;
-    border: 1px solid #ededf1;
-    background: #fff;
-  }
+
