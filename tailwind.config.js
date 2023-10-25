@@ -24,6 +24,7 @@ module.exports = {
         btnblue: "#F8F8FF",
         axiablue: "#2D3582",
         deepblue: "#111A76",
+        semipink: "#FDFBF9",
       },
       textColor: {
         textblk: "#0A102F",
@@ -38,6 +39,7 @@ module.exports = {
         litwhite: "#F6F7FF",
         semiblk: "#545454", 
         blkblk: "#0A102F",
+        blkblk: "#636363",
         footgrey: "#EAEAF6",
       },
       borderColor:{

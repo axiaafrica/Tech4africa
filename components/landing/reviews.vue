@@ -1,59 +1,79 @@
 <template>
-    <div class="reviews-conatiner  my-20">
-       <div class="title-conatiner flex justify-center">
-         <div class="bordered-title">
-            <div class="pink-container-b text-xl">Reviews from beneficiaries of TFA</div>
-         </div>
-       </div>
-       <div class="bigtitle text-[28px] font-semibold text-blkblk mt-10 text-center px-40"> Here's how each type of partnership can contribute to the success of the "Tech for Africa Bootcamp by Axia Africa</div> 
-     <div class="reviwss relative">
-     <div class="overlay absolute w-full h-full top-0 left-0 z-30"></div>
-      <div class="reviewboxx  flex flex-col gap-6 mt-12">
-        <Vue3Marquee :direction="'reverse'" :duration="50" >
-            <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
-            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
-             <div class="titlee flex justify-between items-center mb-4">
-                 <div class="maintitle text-greytext text-xl font-semibold">{{ card.name }}</div>
-                 <div class="icon"><img :src="card.icon" alt="" class="w-7"></div>
-             </div>
-             <div class="note text-semiblk text-base">{{ card.comment }}</div>
-           </div>
-        </div>
-        </Vue3Marquee>
-        <Vue3Marquee :duration="50" >
-            <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
-            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
-             <div class="titlee flex justify-between items-center mb-4">
-                 <div class="maintitle text-greytext text-xl font-semibold">{{ card.name }}</div>
-                 <div class="icon"><img :src="card.icon" alt="" class="w-7"></div>
-             </div>
-             <div class="note text-semiblk text-base">{{ card.comment }}</div>
-           </div>
-        </div>
-        </Vue3Marquee>
-        <Vue3Marquee :direction="'reverse'" :duration="50" >
-            <div v-for="card in cards" :key="card.name" class=" mx-5 title-text bordered-box-outer"> 
-            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
-             <div class="titlee flex justify-between items-center mb-4">
-                 <div class="maintitle text-greytext text-xl font-semibold">{{ card.name }}</div>
-                 <div class="icon"><img :src="card.icon" alt="" class="w-7"></div>
-             </div>
-             <div class="note text-semiblk text-base">{{ card.comment }}</div>
-           </div>
-        </div>
-        </Vue3Marquee>
-     </div>
-     <div class="bluebtn-box flex justify-center mt-12 font-semibold"><div class="bluebtn">See more reviews</div></div>
-     </div>
+  <div class="reviews-conatiner my-20">
+    <div class="title-conatiner flex justify-center">
+      <div class="bordered-title">
+        <div class="pink-container-b text-xl">Reviews from beneficiaries of TFA</div>
+      </div>
     </div>
+    <div class="bigtitle text-[28px] font-semibold text-blkblk mt-10 text-center px-40">
+      Here's how each type of partnership can contribute to the success of the "Tech for
+      Africa Bootcamp by Axia Africa
+    </div>
+    <div class="reviwss relative">
+      <div class="overlay absolute w-full h-full top-0 left-0 z-30"></div>
+      <div class="reviewboxx flex flex-col gap-6 mt-12">
+        <Vue3Marquee :direction="'reverse'" :duration="50">
+          <div
+            v-for="card in cards"
+            :key="card.name"
+            class="mx-5 title-text bordered-box-outer"
+          >
+            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
+              <div class="titlee flex justify-between items-center mb-4">
+                <div class="maintitle text-greytext text-xl font-semibold">
+                  {{ card.name }}
+                </div>
+                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+              </div>
+              <div class="note text-semiblk text-base">{{ card.comment }}</div>
+            </div>
+          </div>
+        </Vue3Marquee>
+        <Vue3Marquee :duration="50">
+          <div
+            v-for="card in cards"
+            :key="card.name"
+            class="mx-5 title-text bordered-box-outer"
+          >
+            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
+              <div class="titlee flex justify-between items-center mb-4">
+                <div class="maintitle text-greytext text-xl font-semibold">
+                  {{ card.name }}
+                </div>
+                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+              </div>
+              <div class="note text-semiblk text-base">{{ card.comment }}</div>
+            </div>
+          </div>
+        </Vue3Marquee>
+        <Vue3Marquee :direction="'reverse'" :duration="50">
+          <div
+            v-for="card in cards"
+            :key="card.name"
+            class="mx-5 title-text bordered-box-outer"
+          >
+            <div class="pink-container text-semiblk w-[342px] h-[274px] overflow-hidden">
+              <div class="titlee flex justify-between items-center mb-4">
+                <div class="maintitle text-greytext text-xl font-semibold">
+                  {{ card.name }}
+                </div>
+                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+              </div>
+              <div class="note text-semiblk text-base">{{ card.comment }}</div>
+            </div>
+          </div>
+        </Vue3Marquee>
+      </div>
+      <div class="bluebtn-box flex justify-center mt-12 font-semibold">
+        <div class="bluebtn">See more reviews</div>
+      </div>
+    </div>
+  </div>
 </template>
 
-
-
-
-<script setup >
-import { Vue3Marquee } from 'vue3-marquee'
-import { cards } from '../landing/landingstore'
+<script setup lang="ts">
+import { Vue3Marquee } from "vue3-marquee";
+import { cards } from "../landing/landingstore";
 
 // const cards = [
 // 	{
@@ -97,10 +117,14 @@ import { cards } from '../landing/landingstore'
 // 		name: 'Glory',
 // 	},
 // ]
-
 </script>
 <style scoped>
-.revoverlay{
-  background-image: linear-gradient(to right, rgba(250, 251, 251, 0.00) 10%, #FFF 80%, rgba(250, 251, 251, 0.00) 10%)
+.revoverlay {
+  background-image: linear-gradient(
+    to right,
+    rgba(250, 251, 251, 0) 10%,
+    #fff 80%,
+    rgba(250, 251, 251, 0) 10%
+  );
 }
 </style>

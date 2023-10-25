@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-deepblue text-footgrey">
-    <div class="mx-auto w-full container p-4 sm:p-6">
+    <div class="mx-auto w-full container-center py-12">
       <div class="md:flex md:justify-between md:items-center w-full">
         <div class="mb-6 md:mb-0 w-[278px]">
           <div class="logobox">

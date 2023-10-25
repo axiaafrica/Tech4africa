@@ -8,6 +8,33 @@ import clickpay from '../../assets/images/icons/clickpay.svg'
 import bootcamp from '../../assets/images/homepage/bootcamp.png'
 import wale from '../../assets/images/homepage/wale.png'
 import vang from '../../assets/images/homepage/vang.png'
+import Network from "@/assets/images/icons/networking.svg";
+import Admission from "@/assets/images/icons/admission.svg";
+import Success from "@/assets/images/icons/success.svg";
+import Mentorship from "@/assets/images/icons/mentorship.svg";
+
+export const contribute = [
+	{
+		img: Network,
+		title: 'Networking Opportunities',
+		desc: "Connect with like-minded individuals, fellow participants in the tech industry. Forge valuable connections that can open doors to exciting career prospects within Africa's vibrant tech ecosystem."
+	},
+	{
+		img: Admission,
+		title: 'Free Admission',
+		desc: "We believe in equal access to opportunities. That's why this extraordinary boot camp comes to you completely free of charge. Take advantage of this unparalleled chance to upskill yourself without any financial burden."
+	},
+    {
+		img: Success,
+		title: 'Proven Success',
+		desc: "Individuals who believe in the bootcamp's mission can provide financial support through donations or sponsorships. Their contributions can fund scholarships, resources, or specific program elements."
+	},
+    {
+		img: Mentorship,
+		title: 'Mentorship & Guardiance',
+		desc: "TFA has sourced out for the best mentors in an of your preferred industry, experienced educators who will guide you on your learning journey. Benefit from their wealth of knowledge, practical insights, and insider tips to accelerate your growth and success."
+	},
+]
 
 export const blogs = [
 	{
