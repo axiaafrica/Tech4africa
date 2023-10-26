@@ -48,7 +48,7 @@ import { courses } from "../landing/landingstore";
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
-.card {
+.course {
   display: inline-block;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-deepblue text-footgrey">
-    <div class="mx-auto w-full container-center py-12">
+    <div class="mx-auto w-full container-center px-3 md:px-0 py-12">
       <div class="md:flex md:justify-between md:items-center w-full">
         <div class="mb-6 md:mb-0 w-[278px]">
           <div class="logobox">
@@ -8,7 +8,7 @@
               <img
                 src="../../assets/images/icons/axialogo.svg"
                 alt=""
-                class="w-[148px]"
+                class="w-[100px] md:w-[148px]"
               />
             </div>
             <div class="footsummery text-xs mt-5">
@@ -18,9 +18,9 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-20">
-          <div class="">
-            <h2 class="mb-3 text-base sm:text-xl font-semibold">Contact Us</h2>
+        <div class="flex gap-8 md:gap-20">
+          <div class="text-sm md:text-xl">
+            <h2 class="mb-3 font-semibold">Contact Us</h2>
             <ul class="flex flex-col gap-2">
               <li>
                 <a href="#" class="hover:underline">09015558035</a>
@@ -30,8 +30,8 @@
               </li>
             </ul>
           </div>
-          <div class="">
-            <h2 class="mb-3 text-base sm:text-xl font-semibold">About</h2>
+          <div class="text-sm md:text-xl">
+            <h2 class="mb-3 font-semibold">About</h2>
             <ul class="flex flex-col gap-2">
               <li>
                 <a href="#" class="hover:underline">Mentors</a>
@@ -41,14 +41,14 @@
               </li>
             </ul>
           </div>
-          <div class="">
-            <h2 class="mb-3 text-base sm:text-xl font-semibold">Editions</h2>
+          <div class="text-sm md:text-xl">
+            <h2 class="mb-3 font-semibold">Editions</h2>
             <ul class="flex flex-col gap-2">
               <li>
                 <a href="#" class="hover:underline">1st bootcamp highlights</a>
               </li>
               <li>
-                <a href="#" class="hover:underline">2nd bootcamp highlights@gmail.com</a>
+                <a href="#" class="hover:underline">2nd bootcamp highlights</a>
               </li>
             </ul>
           </div>
