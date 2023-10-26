@@ -4,13 +4,15 @@
       <div class="md:flex md:justify-between md:items-center w-full">
         <div class="mb-6 md:mb-0 w-[278px]">
           <div class="logobox">
-            <div class="logo text-2xl sm:text-3xl font-semibold">
-              <img
-                src="../../assets/images/icons/axialogo.svg"
-                alt=""
-                class="w-[100px] md:w-[148px]"
-              />
-            </div>
+            <nuxt-link to="/">
+              <div class="logo text-2xl sm:text-3xl font-semibold">
+                <img
+                  src="../../assets/images/icons/axialogo.svg"
+                  alt=""
+                  class="w-[100px] md:w-[148px]"
+                />
+              </div>
+            </nuxt-link>
             <div class="footsummery text-xs mt-5">
               Tech for Africa Bootcamp by Axia Africa provide individuals in Africa with
               first-hand knowledge and practical skills necessary to kickstart their
@@ -33,12 +35,12 @@
           <div class="text-sm md:text-xl">
             <h2 class="mb-3 font-semibold">About</h2>
             <ul class="flex flex-col gap-2">
-              <li>
-                <a href="#" class="hover:underline">Mentors</a>
-              </li>
-              <li>
-                <a href="#" class="hover:underline">Partners</a>
-              </li>
+              <nuxt-link to="/mentors">
+                <li>Mentors</li>
+              </nuxt-link>
+              <nuxt-link to="/partners">
+                <li>Partners</li>
+              </nuxt-link>
             </ul>
           </div>
           <div class="text-sm md:text-xl">

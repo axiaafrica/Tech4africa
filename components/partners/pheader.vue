@@ -22,16 +22,19 @@
           src="../../assets/images/partner/partner1.png"
           alt=""
           class="w-[300px] h-[364px] object-cover"
+          v-motion-slide-visible-left
         />
         <img
           src="../../assets/images/partner/partner2.png"
           alt=""
           class="w-[350px] h-[453px] object-cover"
+          v-motion-slide-visible-bottom
         />
         <img
           src="../../assets/images/partner/partner3.png"
           alt=""
           class="w-[300px] h-[364px] object-cover"
+          v-motion-slide-visible-right
         />
       </div>
       <div class="btn2 mt-10"><div class="bluebtn">Become a partner</div></div>

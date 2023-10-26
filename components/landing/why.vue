@@ -27,6 +27,7 @@
         src="../../assets/images/homepage/africa.png"
         alt=""
         class="africa w-full object-cover"
+        v-motion-pop-visible
       />
     </div>
   </div>

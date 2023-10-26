@@ -16,6 +16,7 @@
       <div class="boxes grid grid-cols-3 gap-x-20 gap-y-12 py-16 container-center">
         <div
           class="enablen flex flex-col gap-2 text-greytext"
+          v-motion-fade-visible
           v-for="enables in enable"
           :key="enables.id"
         >
