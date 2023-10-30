@@ -1,7 +1,7 @@
 <template>
-  <div class="ratings w-full bg-litpink overflow-x-hidden mt-10">
-    <div class="ratingbox max-w-[1200px] py-4 md:py-14 px-2 md:px-[155px]">
-      <ul class="rates flex justify-between items-center">
+  <div class="ratings w-full bg-litpink overflow-x-hidden mt-10 flex justify-center">
+    <div class="ratingbox max-w-[1200px] py-4 md:py-14">
+      <ul class="rates flex justify-between gap-0 md:gap-16 items-center">
         <li class="rate border-rit px-[6px] md:px-8 text-center md:text-start">
           <div class="num text-2xl md:text-[56px] font-semibold text-drkblue">8k +</div>
           <p class="text-semiblk font-medium text-sm md:text-xl">Total students</p>
@@ -14,7 +14,7 @@
           <div class="num text-2xl md:text-[56px] font-semibold text-drkblue">30 +</div>
           <p class="text-semiblk font-medium text-sm md:text-xl">Mentors</p>
         </li>
-        <li class="rate text-center md:text-start">
+        <li class="rate text-center md:text-start px-[6px] md:px-8">
           <div class="num text-2xl md:text-[56px] font-semibold text-drkblue">20 +</div>
           <p class="text-semiblk font-medium text-sm md:text-xl">Countries</p>
         </li>
