@@ -37,9 +37,13 @@
           </div>
           <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
           <div class="mentorname">{{ mentor.job }}</div>
-          <a href="" class="socials flex gap-3 items-center">
+          <a
+            :href="mentor.socialUrl"
+            target="_blank"
+            class="socials flex gap-3 items-center"
+          >
             <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
-            <div class="handle text-lg">{{ mentor.socialhandle }}</div>
+            <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
           </a>
         </div>
       </div>

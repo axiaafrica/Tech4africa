@@ -1,6 +1,8 @@
 <template>
   <div class="py-24">
     <LazyMentorsMheader />
+    <LazyMentorsMwhy />
+    <LazyMentorsMeditions />
 
     <!-- <LazyPartnersMentform /> -->
   </div>

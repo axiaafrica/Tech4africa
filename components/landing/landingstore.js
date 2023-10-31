@@ -1,7 +1,9 @@
 import Twitter from '../../assets/images/icons/twitter.svg'
 import LinkedIn from '../../assets/images/icons/linkedin.svg'
-import mentor1 from '../../assets/images/homepage/mentorman.png'
-import mentor2 from '../../assets/images/homepage/mentorlady.png'
+import mentor1 from '../../assets/images/mentors/peace.png'
+import mentor3 from '../../assets/images/mentors/bose.png'
+import mentor4 from '../../assets/images/mentors/best.png'
+import mentor2 from '../../assets/images/mentors/fawaz.png'
 import cardify from '../../assets/images/icons/cardify.svg'
 import propel from '../../assets/images/icons/propel.svg'
 import clickpay from '../../assets/images/icons/clickpay.svg'
@@ -101,35 +103,39 @@ export const editions = [
 ]
 export const mentors = [
 	{   
-		id: 1,
-		picture: mentor1,
-		mentorname: "Sam Femi",
-		job: "Product management mentor",
-		socialicon: LinkedIn,
-		socialhandle: "Thesamfemi" 
+		id: 1, 
+      picture: mentor1,
+      mentorname: "Chioma Peace Udoh",
+      job: "Product management mentor",
+      socialicon: LinkedIn,
+      socialUrl: "https://www.linkedin.com/in/chioma-peace-udoh/",
+      socialhandle: "Chioma Peace"
 	},
 	{
 		id: 2,
 		picture: mentor2,
-		mentorname: "Sam Femi",
+		mentorname: "Fawaz Ibrahim (The best ibrahim)",
 		job: "Product design mentor",
 		socialicon: LinkedIn,
-		socialhandle: "Thesamfemi" 
+		socialUrl: "https://www.linkedin.com/in/fawaz-ibrahim-320826222/",
+		socialhandle: "Fawaz Ibrahim",
 	},
 	{   id: 3,
-		picture: mentor2,
-		mentorname: "Sam Femi",
-		job: "Data analytics mentor",
+		picture: mentor3,
+		mentorname: "Abosede Teniola",
+		job: "Data Analytics mentor",
 		socialicon: LinkedIn,
-		socialhandle: "Thesamfemi" 
+		socialUrl: "https://www.linkedin.com/in/abosede-teniola-7a56b5238/",
+		socialhandle: "Abosede Teniola", 
 	},
 	{   
 		id: 4,
-		picture: mentor2,
-		mentorname: "Sam Femi",
-		job: "Product management mentor",
-		socialicon: LinkedIn,
-		socialhandle: "Thesamfemi" 
+		picture: mentor4,
+        mentorname: "Best Kosisochukwu",
+        job: "Product management mentor",
+        socialicon: LinkedIn,
+        socialUrl: "https://www.linkedin.com/in/best-kosisochukwu-97b288142/",
+        socialhandle: "Best Kosisochukwu", 
 	}
 ]
 
