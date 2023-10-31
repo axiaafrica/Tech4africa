@@ -20,10 +20,10 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-8 md:gap-20">
-          <div class="text-sm md:text-xl">
-            <h2 class="mb-3 font-semibold">Contact Us</h2>
-            <ul class="flex flex-col gap-2">
+        <div class="flex flex-col md:flex-row gap-8 md:gap-20">
+          <div class="">
+            <h2 class="mb-3 font-semibold text-xl">Contact Us</h2>
+            <ul class="flex flex-col gap-2 text-base md:text-xl">
               <li>
                 <a href="#" class="hover:underline">09015558035</a>
               </li>
@@ -32,9 +32,9 @@
               </li>
             </ul>
           </div>
-          <div class="text-sm md:text-xl">
+          <div class="text-xl">
             <h2 class="mb-3 font-semibold">About</h2>
-            <ul class="flex flex-col gap-2">
+            <ul class="flex flex-col gap-2 text-base md:text-xl">
               <nuxt-link to="/mentors">
                 <li>Mentors</li>
               </nuxt-link>
@@ -43,9 +43,9 @@
               </nuxt-link>
             </ul>
           </div>
-          <div class="text-sm md:text-xl">
+          <div class="text-xl">
             <h2 class="mb-3 font-semibold">Editions</h2>
-            <ul class="flex flex-col gap-2">
+            <ul class="flex flex-col gap-2 text-base md:text-xl">
               <li>
                 <a href="#" class="hover:underline">1st bootcamp highlights</a>
               </li>

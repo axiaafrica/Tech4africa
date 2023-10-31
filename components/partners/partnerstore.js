@@ -58,40 +58,46 @@ export const preview = [
 ]
 
 export const enable = [
-	{
-	 id: 1,
-	 icon: redcheck,
-	 title: "Corporate Social Responsibility (CSR)",
-     note: "TFA is a good initiative for companies looking to make and impact & fulfill their CSR projects relating to education, youth empowerment, and skill development.",
-	},
+
     {
-     id: 2,
+     id: 1,
      icon: pinkcheck,
      title: "Data Incentives for Beneficiaries",
      note: "Through your sponsorship we can provide participants with data allowances for internet connectivity to ensure they have uninterrupted access to all our virtual live classes.",
     },
     {
+     id: 2,
+     icon: redcheck,
+     title: "Scholarship opportunity for the best students.",
+     note: "Partner’s sponsor funds can be allocated to offer scholarships to the top-performing participants in the bootcamp. These scholarships will provide them with additional training at any of Axia Africa School.",
+    },
+    {
      id: 3,
      icon: bluecheck,
-     title: "Expand Your Network",
-     note: "Collaborate with a diverse community of fellow mentors, tech enthusiasts, and professionals.",
-    },
-    {
-     id: 4,
-     icon: bluecheck,
-     title: "Scholarship opportunity for the best students.",
-     note: "Partner’s sponsor funds can be allocated to offer scholarships to the top-performing participants in the bootcamp. These scholarships will provide them with additional training at any of Axia Africa School.",
-    },
-    {
-     id: 5,
-     icon: bluecheck,
-     title: "Scholarship opportunity for the best students.",
-     note: "Partner’s sponsor funds can be allocated to offer scholarships to the top-performing participants in the bootcamp. These scholarships will provide them with additional training at any of Axia Africa School.",
-   },
-   {
-     id: 6,
-     icon: bluecheck,
-     title: "Scholarship opportunity for the best students.",
-     note: "Partner’s sponsor funds can be allocated to offer scholarships to the top-performing participants in the bootcamp. These scholarships will provide them with additional training at any of Axia Africa School.",
+     title: "Laptops and Resources",
+     note: "Your contribution can provide laptops, tech devices, and software resources to those in need. ",
    }
+]
+
+export const contribute = [
+	{
+    id: 1,
+		title: 'Individual Partner Sponsorship',
+		desc: " Individuals who believe in the bootcamp's mission can provide financial support through donations or mentorship. Their contributions can fund scholarships, resources, or specific program elements. They can also volunteer as a mentor at the bootcamp"
+	},
+	{
+    id: 2,
+		title: 'Companies',
+		desc: "Companies can partner with the bootcamp to sponsor various aspects, providing financial support, offering access to software or hardware resources, and even hosting workshops or hackathons as part of the bootcamp curriculum."
+	},
+    {
+      id: 3,
+		title: 'NGOs and Foundations',
+		desc: "Individuals who believe in the bootcamp's mission can provide financial support through donations or sponsorships. Their contributions can fund scholarships, resources, or specific program elements."
+	},
+    {
+      id: 4,
+		title: 'Individual Partner Sponsorship',
+		desc: "Individuals who believe in the bootcamp's mission can provide financial support through donations or sponsorships. Their contributions can fund scholarships, resources, or specific program elements."
+	},
 ]

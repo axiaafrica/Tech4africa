@@ -1,8 +1,12 @@
 <template>
   <div class="mt-24">
     <div class="btnb flex flex-col items-center">
-      <div class="btn outerbtn">
-        <button class="titlebtn text-xl">What your sponsorship will Enable</button>
+      <div class="btnb container-center flex flex-col gap-8 text-center items-center">
+        <div class="btn outerbtn">
+          <button class="titlebtn text-sm md:text-xl">
+            What your sponsorship will Enable
+          </button>
+        </div>
       </div>
       <div
         class="textss max-w-[770px] mt-12 text-center text-greytext text-2xl font-semibold"

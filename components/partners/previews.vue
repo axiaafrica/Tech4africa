@@ -13,7 +13,12 @@
       </p>
     </div>
     <div class="reviewss mt-12">
-      <Vue3Marquee :duration="50">
+      <Vue3Marquee
+        :duration="50"
+        :pauseOnHover="true"
+        @onPause="playState = 'paused'"
+        @onResume="playState = 'playing'"
+      >
         <div
           v-for="rev in preview"
           :key="rev.id"

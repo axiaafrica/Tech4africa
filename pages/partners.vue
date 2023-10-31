@@ -3,6 +3,7 @@
     <LazyPartnersPheader />
     <LazyPartnersSponsorship />
     <LazyLandingPartner class="mt-0" />
+    <LazyPartnersPathway />
     <LazyPartnersPreviews />
     <LazyPartnersPeditions />
     <LazyLandingBlog />

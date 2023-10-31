@@ -36,7 +36,17 @@ export const mEditions = [
       edition: ['1st edition mentors', '2nd edition mentors']
       
     },
-    {   id: 3,
+    { 
+      id: 3, 
+      picture: bose,
+      mentorname: "Abosede Teniola",
+      job: "Data Analytics mentor",
+      socialicon: LinkedIn,
+      socialUrl: "https://www.linkedin.com/in/abosede-teniola-7a56b5238/",
+      socialhandle: "Abosede Teniola",
+      edition: ['2nd edition mentors']
+    },
+    {   id: 4,
         picture: best,
         mentorname: "Best Kosisochukwu",
         job: "Product management mentor",
@@ -45,7 +55,7 @@ export const mEditions = [
         socialhandle: "Best Kosisochukwu",
         edition: ['1st edition mentors', '2nd edition mentors']
     }, 
-    {   id: 4,
+    {   id: 5,
       picture: karen,
       mentorname: "Karen Cummings",
       job: "Product design mentor",
@@ -54,7 +64,7 @@ export const mEditions = [
       socialhandle: "Princess Cummings",
       edition: ['1st edition mentors', '2nd edition mentors'] 
   }, 
-  {   id: 5,
+  {   id: 6,
     picture: bode,
     mentorname: "Oluwakayode Akinbode",
     job: "Product Marketing mentor",
@@ -63,45 +73,8 @@ export const mEditions = [
     socialhandle: "Kayodea",
     edition: ['1st edition mentors', '2nd edition mentors']
 }, 
-{   id: 6,
-  picture: muheez,
-  mentorname: "Muheez Okunade",
-  job: "Data analytics mentor",
-  socialicon: LinkedIn,
-  socialUrl: "https://www.linkedin.com/in/muheez-okunade/",
-  socialhandle: "Muheez Okunade",
-  edition: ['1st edition mentors', '2nd edition mentors']
-}, 
-{   id: 7,
-  picture: favor,
-  mentorname: "Favour Ugbechie",
-  job: "Product design mentor",
-  socialicon: LinkedIn,
-  socialUrl: "https://www.linkedin.com/in/favour-ugbechie-a451831a3/",
-  socialhandle: "Favour Ugbechie",
-  edition: ['1st edition mentors', '2nd edition mentors'] 
-}, 
-{   id: 8,
-  picture: anthony,
-  mentorname: "Anthony Akhabue",
-  job: "Frontend development mentor",
-  socialicon: LinkedIn,
-  socialUrl: "https://www.linkedin.com/in/antimonyiq/",
-  socialhandle: "Anthony Akhabue",
-  edition: ['1st edition mentors', '2nd edition mentors']
-},   
-{ 
-  id: 9, 
-  picture: bose,
-  mentorname: "Abosede Teniola",
-  job: "Data Analytics mentor",
-  socialicon: LinkedIn,
-  socialUrl: "https://www.linkedin.com/in/abosede-teniola-7a56b5238/",
-  socialhandle: "Abosede Teniola",
-  edition: ['2nd edition mentors']
-},
 {
-  id: 10,
+  id: 7,
   picture: seun,
   mentorname: "Bakare Oluwaseun",
   job: "Product design mentor",
@@ -111,25 +84,43 @@ export const mEditions = [
   edition: ['2nd edition mentors'],
   
 },
-{   id: 11,
-    picture: femi,
-    mentorname: "Sam Femi",
-    job: "Product Design mentor",
-    socialicon: LinkedIn,
-    socialUrl: "https://www.linkedin.com/in/thesamfemi/",
-    socialhandle: "Sam Femi",
-    edition: ['2nd edition mentors']
+{   id: 8,
+  picture: muheez,
+  mentorname: "Muheez Okunade",
+  job: "Data analytics mentor",
+  socialicon: LinkedIn,
+  socialUrl: "https://www.linkedin.com/in/muheez-okunade/",
+  socialhandle: "Muheez Okunade",
+  edition: ['1st edition mentors', '2nd edition mentors']
 }, 
-{   id: 12,
-  picture: sodiq,
-  mentorname: "Sodiq Jimoh",
+{   id: 9,
+  picture: favor,
+  mentorname: "Favour Ugbechie",
   job: "Product design mentor",
   socialicon: LinkedIn,
-  socialUrl: "https://www.linkedin.com/in/sodiqjimoh/",
-  socialhandle: "Sodiq Jimoh",
-  edition: ['2nd edition mentors'] 
+  socialUrl: "https://www.linkedin.com/in/favour-ugbechie-a451831a3/",
+  socialhandle: "Favour Ugbechie",
+  edition: ['1st edition mentors', '2nd edition mentors'] 
 }, 
-{   id: 13,
+{   id: 10,
+  picture: femi,
+  mentorname: "Sam Femi",
+  job: "Product Design mentor",
+  socialicon: LinkedIn,
+  socialUrl: "https://www.linkedin.com/in/thesamfemi/",
+  socialhandle: "Sam Femi",
+  edition: ['2nd edition mentors']
+}, 
+{   id: 11,
+picture: sodiq,
+mentorname: "Sodiq Jimoh",
+job: "Product design mentor",
+socialicon: LinkedIn,
+socialUrl: "https://www.linkedin.com/in/sodiqjimoh/",
+socialhandle: "Sodiq Jimoh",
+edition: ['2nd edition mentors'] 
+}, 
+{   id: 12,
 picture: seyi,
 mentorname: "Seyi Sennuga",
 job: "Product Marketing mentor",
@@ -138,173 +129,23 @@ socialUrl: "https://linkedin.com/in/seyisennuga/",
 socialhandle: "Seyi Sennuga",
 edition: ['2nd edition mentors']
 }, 
+{   id: 13,
+  picture: anthony,
+  mentorname: "Anthony Akhabue",
+  job: "Frontend development mentor",
+  socialicon: LinkedIn,
+  socialUrl: "https://www.linkedin.com/in/antimonyiq/",
+  socialhandle: "Anthony Akhabue",
+  edition: ['1st edition mentors', '2nd edition mentors']
+},   
 {   id: 14,
 picture: faruq,
 mentorname: "Ajibade Faruk",
-job: "Data analytics mentor",
+job: "Frontend development mentor",
 socialicon: LinkedIn,
 socialUrl: "https://www.linkedin.com/in/farukdev1/",
 socialhandle: "Ajibade Faruk",
 edition: ['2nd edition mentors'] 
 } 
  
-
-    // Add more mentors and editions as needed
-  ];
-
-
-    // {
-    //     id: 1,
-    //     name: "Edition 1",
-    //     mentors: [
-    //       { name: "Mentor 1", description: "Description 1" },
-    //       { name: "Mentor 2", description: "Description 2" },
-    //       // Add more mentors for Edition 1
-    //     ],
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "Edition 2",
-    //     mentors: [
-    //       { name: "Mentor 3", description: "Description 3" },
-    //       { name: "Mentor 4", description: "Description 4" },
-    //       // Add more mentors for Edition 2
-    //     ],
-    //   },
-
-    // {
-    //     id: 1,
-    //     name: "Edition 1",
-    //     mentors: [
-    //         {   
-    //             id: 1,
-    //             picture: mentor1,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {
-    //             id: 2,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product design mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   id: 3,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Data analytics mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 4,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 5,
-    //             picture: mentor1,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {
-    //             id: 6,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product design mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   id: 7,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Data analytics mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 8,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         }
-    //     ],
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "Edition 2",
-    //     mentors: [
-    //         {   
-    //             id: 1,
-    //             picture: mentor1,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {
-    //             id: 2,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product design mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   id: 3,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Data analytics mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 4,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 5,
-    //             picture: mentor1,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {
-    //             id: 6,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product design mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   id: 7,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Data analytics mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         },
-    //         {   
-    //             id: 8,
-    //             picture: mentor2,
-    //             mentorname: "Sam Femi",
-    //             job: "Product management mentor",
-    //             socialicon: LinkedIn,
-    //             socialhandle: "Thesamfemi" 
-    //         }
-    //     ],
-    //   },
+];
