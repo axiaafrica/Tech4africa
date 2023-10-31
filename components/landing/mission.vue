@@ -1,12 +1,12 @@
 <template>
   <div
-    class="mission mt-10 container-center flex flex-col md:flex-row px-3 md:px-0 justify-between items-center"
+    class="mission mt-10 container-center flex flex-col gap-20 md:flex-row px-3 md:px-0 justify-between items-center"
   >
     <div class="image w-full md:w-1/2">
       <img
         src="../../assets/images/homepage/Group.png"
         alt=""
-        class="w-full h-[376px] object-contain"
+        class="w-full object-contain"
       />
     </div>
     <div class="textss w-full md:w-1/2 text-center md:text-start">
