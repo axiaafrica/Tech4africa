@@ -40,13 +40,15 @@
             />
           </div>
           <div class="w-full mt-6">
-            <div for="dropdown" class="formlabel">Select an option:</div>
+            <div for="dropdown" class="formlabel">
+              What course do you want to mentor in ?
+            </div>
             <select
               id="dropdown"
               class="text-[#424040] text-xl p-3 bg-[#f6f5f3] rounded-xl w-full"
               v-model="selectedOption"
             >
-              <option value="" disabled>Select an option</option>
+              <option value="" disabled>Select a Course</option>
               <option
                 v-for="option in dropdownOptions"
                 :key="option.value"
