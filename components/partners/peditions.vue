@@ -1,5 +1,5 @@
 <template>
-  <div class="editionsbox mt-32">
+  <div class="editionsbox mt-32 bg-btnblue pt-12">
     <div class="titles flex flex-col gap-6 justify-center max-w-[960px] mx-auto">
       <div class="btnb flex justify-center">
         <div class="btn outerbtn2">

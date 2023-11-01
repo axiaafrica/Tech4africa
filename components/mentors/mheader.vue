@@ -17,7 +17,13 @@
       </p>
     </div>
     <div class="mentors">
-      <Vue3Marquee :duration="50" class="gallerybox flex mt-12">
+      <Vue3Marquee
+        :duration="50"
+        :pauseOnHover="true"
+        @onPause="playState = 'paused'"
+        @onResume="playState = 'playing'"
+        class="gallerybox flex mt-12"
+      >
         <div
           class="mentor w-full flex flex-col gap-1"
           v-for="mentor in mEditions"
@@ -40,7 +46,12 @@
       </Vue3Marquee>
     </div>
     <div class="btn mt-14 flex justify-center gap-6 items-center">
-      <div class="bluebtn">Become a mentor</div>
+      <button @click="showMentorModal" class="bluebtn">Become a Mentor</button>
+      <mentor-modal
+        :show-modal="isMentorModalVisible"
+        @submit="onSubmit"
+        @close="onClose"
+      />
       <div class="text w-[244px] font-semibold">
         Over 50 professionals mentor for the bootcamp
       </div>
@@ -51,5 +62,22 @@
 <script setup lang="ts">
 import { Vue3Marquee } from "vue3-marquee";
 import { mEditions } from "../mentors/mentorstore";
+import { ref } from "vue";
+import MentorModal from "../mentors/MentorModal.vue";
+
+const isMentorModalVisible = ref(false);
+
+const showMentorModal = () => {
+  isMentorModalVisible.value = true;
+};
+
+const onSubmit = () => {
+  isMentorModalVisible.value = false;
+};
+
+const onClose = () => {
+  isMentorModalVisible.value = false;
+};
 </script>
+
 <style></style>

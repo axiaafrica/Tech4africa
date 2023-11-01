@@ -1,8 +1,10 @@
 <template>
-  <div class="py-24">
+  <div class="pt-24">
     <LazyMentorsMheader />
     <LazyMentorsMwhy />
     <LazyMentorsMeditions />
+    <LazyMentorsMcertificate />
+    <LazyLandingBlog />
 
     <!-- <LazyPartnersMentform /> -->
   </div>

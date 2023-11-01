@@ -8,11 +8,6 @@
       >
         <div class="textss rainbow">Our Vision</div>
       </div>
-      <!-- <div
-        class="why py-3 lg:text-base redbtn mt-20 text-sm w-[335px] flex justify-center items-center"
-      >
-        <div class="textss text-greytext"></div>
-      </div> -->
       <div
         class="main-text text-greytext text-xl md:text-3xl mt-8 leading-[150%] text-center md:text-start font-semibold"
       >

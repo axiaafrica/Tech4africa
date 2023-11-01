@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header md:pt-28 pt-7 container-center px-3 md:px-0 flex md:flex-row flex-col gap-10 justify-between overflow-hidden"
+    class="header md:pt-28 pt-16 container-center px-3 md:px-0 flex md:flex-row flex-col gap-10 justify-between overflow-hidden"
   >
     <div
       class="textside w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-start gap-5 lg:gap-8 pt-6"

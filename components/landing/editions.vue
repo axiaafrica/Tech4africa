@@ -93,17 +93,4 @@
 import { editions } from "../landing/landingstore";
 </script>
 <style>
-.titlebtn {
-  border-radius: 5px;
-  border: 1px solid #f8f8ff;
-  background: #f8f8ff;
-  backdrop-filter: blur(2px);
-  padding: 12px 16px;
-}
-.outerbtn {
-  padding: 4px;
-  border-radius: 6px;
-  border: 1px solid #ededf1;
-  background: #fff;
-}
 </style>

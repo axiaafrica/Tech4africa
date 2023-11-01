@@ -15,25 +15,27 @@
       </div>
     </div>
 
-    <div class="gallerybox grid grid-cols-4 gap-y-20 mt-6 bg-litpink px-[120px] py-16">
-      <div
-        class="mentor w-full flex flex-col gap-1"
-        v-for="mentor in filteredMentors"
-        :key="mentor.id"
-      >
-        <div class="picture w-[300px] md:w-full h-[300px]">
-          <img :src="mentor.picture" alt="" class="w-full h-full object-cover" />
-        </div>
-        <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
-        <div class="mentorname">{{ mentor.job }}</div>
-        <a
-          :href="mentor.socialUrl"
-          target="_blank"
-          class="socials flex gap-3 items-center"
+    <div class="gallerybox mt-6 bg-litpink py-16 px-3">
+      <div class="mentorbox container-center grid grid-cols-4 gap-y-20">
+        <div
+          class="mentor w-full flex flex-col gap-1"
+          v-for="mentor in filteredMentors"
+          :key="mentor.id"
         >
-          <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
-          <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
-        </a>
+          <div class="picture w-[300px] md:w-full h-[300px]">
+            <img :src="mentor.picture" alt="" class="w-full h-full object-cover" />
+          </div>
+          <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
+          <div class="mentorname">{{ mentor.job }}</div>
+          <a
+            :href="mentor.socialUrl"
+            target="_blank"
+            class="socials flex gap-3 items-center"
+          >
+            <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
+            <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
