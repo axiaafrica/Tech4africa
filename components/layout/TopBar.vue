@@ -71,7 +71,7 @@
     </div>
     <!-- Nav links (hidden on mobile) -->
     <div
-      class="navs w-screen h-screen top-20 left-0 fixed pt-12 bg-[#020A0C]/50 z-50 flex flex-col items-end px-5"
+      class="navs w-screen h-screen top-0 left-0 fixed pt-20 bg-[#020A0C]/50 z-20 flex flex-col items-end px-5"
       :class="{ block: showMenu, hidden: !showMenu }"
     >
       <div>
