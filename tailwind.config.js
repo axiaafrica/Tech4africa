@@ -34,18 +34,18 @@ module.exports = {
         drkgrey: "#525357",
         greytext: "#121212",
         litgrey: "#383838",
-        axiared: "#AB2638", 
+        axiared: "#AB2638",
         litblk: "#626268",
         litwhite: "#F6F7FF",
-        semiblk: "#545454", 
+        semiblk: "#545454",
         blkblk: "#0A102F",
         blkblk: "#636363",
         footgrey: "#EAEAF6",
       },
-      borderColor:{
+      borderColor: {
         borderCol: "#2D3582",
-      }
+      },
     },
   },
   plugins: [],
-}
+};
