@@ -8,7 +8,7 @@
       </div>
     </div>
     <div
-      class="bigtitle text-base md:text-[28px] font-semibold text-blkblk mt-6 md:mt-10 text-center px-1 md:px-40 leading-[42px]"
+      class="bigtitle text-base md:text-[28px] font-semibold text-textblk mt-6 md:mt-10 text-center px-1 md:px-40 leading-[42px]"
     >
       Here's how each type of partnership can contribute to the success of the "Tech for
       Africa Bootcamp by Axia Africa.

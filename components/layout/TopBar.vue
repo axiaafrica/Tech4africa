@@ -24,13 +24,8 @@
                   <nuxt-link to="/mentors">
                     <li class="links flex items-center text-xl gap-1">
                       Mentors
-                      <span
-                        ><img
-                          src="../../assets/images/icons/arrow_drop_down.svg"
-                          alt=""
-                          class="dropdown w-6 h-6 object-cover"
-                      /></span></li
-                  ></nuxt-link>
+                    </li></nuxt-link
+                  >
 
                   <li class="links flex items-center text-xl gap-1">
                     Editions
@@ -80,15 +75,8 @@
             <li class="links text-xl">Partner with us</li>
           </nuxt-link>
           <nuxt-link to="/mentors">
-            <li class="links flex items-center text-xl gap-1">
-              Mentors
-              <span
-                ><img
-                  src="../../assets/images/icons/arrow_drop_down.svg"
-                  alt=""
-                  class="dropdown w-6 h-6 object-cover"
-              /></span></li
-          ></nuxt-link>
+            <li class="links flex items-center text-xl gap-1">Mentors</li></nuxt-link
+          >
 
           <li class="links flex items-center text-xl gap-1">
             Editions

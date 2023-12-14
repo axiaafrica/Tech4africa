@@ -19,7 +19,7 @@
           ecosystem.
         </div>
       </div>
-      <div class="partners mt-10 flex gap-7">
+      <!-- <div class="partners mt-10 flex gap-7">
         <img
           src="../../assets/images/partner/partner1.png"
           alt=""
@@ -38,7 +38,33 @@
           class="w-[300px] h-[364px] object-cover"
           v-motion-slide-visible-right
         />
+      </div> -->
+
+      <div class="reviewss mt-12">
+        <Vue3Marquee
+          :duration="50"
+          :pauseOnHover="true"
+          @onPause="playState = 'paused'"
+          @onResume="playState = 'playing'"
+        >
+          <div class="mentor w-full mr-4" v-for="mentor in mEditions" :key="mentor.id">
+            <div class="picture w-[300px] md:w-full h-[300px]">
+              <img :src="mentor.picture" alt="" class="w-full h-full object-cover" />
+            </div>
+            <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
+            <div class="mentorname">{{ mentor.job }}</div>
+            <a
+              :href="mentor.socialUrl"
+              target="_blank"
+              class="socials flex gap-3 items-center"
+            >
+              <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
+              <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
+            </a>
+          </div>
+        </Vue3Marquee>
       </div>
+
       <div class="btn mt-14 flex justify-center gap-6 items-center">
         <button @click="showMentorModal" class="bluebtn">Become a Mentor</button>
         <mentor-modal
