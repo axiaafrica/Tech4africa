@@ -4,30 +4,34 @@
     <div
       class="cont w-screen h-screen top-0 left-0 bg-[#020A0C]/50 flex items-center justify-end"
     >
-      <div class="bg-white w-[720px] p-10 rounded-xl shadow-lg mr-28">
-        <div class="text-[28px] font-semibold text-greytext mb-4">
+      <div
+        class="bg-white sm:w-[720px] w-[380px] p-10 rounded-xl shadow-lg sm:mr-28 mr-5"
+      >
+        <div class="sm:text-[28px] text-xl font-semibold text-greytext mb-4">
           Submit your mentorship application
         </div>
-        <p class="text-litgrey text-xl">
-          Tell us about you and how you would like to mentor at the tech for Africa
-          bootcamp
+        <p class="text-litgrey sm:text-xl text-sm">
+          Tell us about you and how you would like to mentor at the tech for
+          Africa bootcamp
         </p>
         <form>
-          <div class="name-link flex justify-between w-full mt-4">
-            <div class="fname w-1/2">
+          <div
+            class="name-link flex flex-col sm:flex-row sm:justify-between w-full mt-4"
+          >
+            <div class="fname sm:w-1/2 w-full sm:text-base text-xs">
               <div for="fullName" class="formlabel">Your full name</div>
               <input
                 type="text"
                 placeholder="Axia Africa"
-                class="text-[#424040] text-xl p-3 bg-[#f6f5f3] rounded-xl"
+                class="text-[#424040] text-xl p-3 w-full bg-[#f6f5f3] rounded-xl"
               />
             </div>
-            <div class="linkedin w-1/2">
+            <div class="linkedin sm:w-1/2 w-full mt-5 sm:mt-0">
               <div for="linkedin" class="formlabel">Your LinkedIn URL</div>
               <input
                 type="text"
                 placeholder="Axiaafrica@gmail.com"
-                class="text-[#424040] text-xl p-3 bg-[#f6f5f3] rounded-xl"
+                class="text-[#424040] text-xl p-3 w-full bg-[#f6f5f3] rounded-xl"
               />
             </div>
           </div>
