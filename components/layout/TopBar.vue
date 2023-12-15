@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main relative">
     <div
       class="navbar fixed top-0 left-0 py-4 md:px-0 px-3 w-full z-30 bg-white overflow-hidden"
     >
@@ -27,7 +27,7 @@
                     </li></nuxt-link
                   >
 
-                  <li class="links flex items-center text-xl gap-1">
+                  <li class="links flex items-center text-xl gap-1 group">
                     Editions
                     <span
                       ><img
@@ -35,6 +35,16 @@
                         alt=""
                         class="dropdown w-6 h-6 object-cover"
                     /></span>
+                    <div class="editions">
+                      <ul>
+                        <nuxt-link to="/editions/firstEdition"
+                          ><li>edition1</li></nuxt-link
+                        >
+                        <nuxt-link to="/editions/secondEdition"
+                          ><li>edition2</li></nuxt-link
+                        >
+                      </ul>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -64,6 +74,7 @@
         </div>
       </div>
     </div>
+
     <!-- Nav links (hidden on mobile) -->
     <div
       class="navs w-screen h-screen top-0 left-0 fixed pt-20 bg-[#020A0C]/50 z-20 flex flex-col items-end px-5"
