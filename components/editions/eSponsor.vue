@@ -16,30 +16,31 @@
     </div>
     <div class="editions bg-btnblue px-4 md:px-[120px] py-4 md:py-10 mt-12">
       <div class="editionsboxess">
-        <div class="bigbox bg-white p-3 md:p-5 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div
-            class="editionboxes bg-btnblue p-5 flex flex-col gap-3"
-            v-for="edition in editions"
-            :key="edition.edition"
-          >
+        <div class="bigbox bg-white p-3 md:p-5">
+          <div class="editionboxes bg-btnblue p-5 flex flex-col gap-3">
             <div class="redicon">
               <img src="../../assets/images/icons/redglobe.svg" alt="" class="" />
             </div>
             <div class="edition-name font-semibold">
-              <span>{{ edition.edition }}</span> bootcamp - Official sponsor of this
-              edition.
+              <span>1st</span> bootcamp - Official sponsor of this edition.
             </div>
             <div class="imgcontainer flex gap-3 items-center">
-              <div v-for="sponsors in edition.sponsor" :key="sponsors" class="sponsor">
-                <img :src="sponsors" alt="" class="w-[120px] h-7 sm:h-8 object-cover" />
+              <div class="sponsor">
+                <img
+                  v-for="image in images"
+                  :src="image.pic"
+                  :alt="image.alt"
+                  :key="index"
+                />
               </div>
             </div>
-
             <div class="summery text-semiblk text-xs md:text-base">
-              {{ edition.summery }}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis
+              mollitia nam aliquam sunt possimus quae quos inventore? Exercitationem,
+              iure?
             </div>
             <div class="bootimg bg-axiablue w-full px-8 h-[140px] md:h-[319px]">
-              <img :src="edition.image" alt="" class="h-full w-full object-cover" />
+              <img src="" alt="" class="h-full w-full object-cover" />
             </div>
             <div class="see">
               <a
@@ -89,7 +90,12 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { editions } from "../landing/landingstore";
+<script setup>
+defineProps({
+  images: {
+    default: () => [1, 2, 3],
+    type: Array,
+  },
+});
 </script>
 <style></style>

@@ -16,11 +16,9 @@
     </div>
 
     <div class="gallerybox mt-6 bg-litpink py-16 px-3">
-      <div
-        class="mentorbox container-center grid grid-cols-4 gap-y-20 md:gap-x-4 gap-x-[60px] w-[1290px]"
-      >
+      <div class="mentorbox container-center grid grid-cols-4 gap-y-20 gap-x-4">
         <div
-          class="mentor w-[300px] md:w-full flex flex-col gap-1"
+          class="mentor w-full flex flex-col gap-1"
           v-for="mentor in filteredMentors"
           :key="mentor.id"
         >
