@@ -2,7 +2,7 @@
   <div class="mt-24">
     <div class="w-full flex justify-center container-center">
       <div
-        class="borderbox flex justify-center items-center gap-6 px-5 py-3 border-[1px] border-[#F3F2F0] text-2xl"
+        class="borderbox flex justify-center items-center gap-6 px-5 py-3 border-[1px] border-[#F3F2F0] text-sm sm:text-2xl"
       >
         <button
           v-for="edition in ['1st edition mentors', '2nd edition mentors']"
@@ -23,17 +23,27 @@
           :key="mentor.id"
         >
           <div class="picture w-[300px] md:w-full h-[300px]">
-            <img :src="mentor.picture" alt="" class="w-full h-full object-cover" />
+            <img
+              :src="mentor.picture"
+              alt=""
+              class="w-full h-full object-cover"
+            />
           </div>
-          <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
+          <div class="mentorname text-lg font-bold">
+            {{ mentor.mentorname }}
+          </div>
           <div class="mentorname">{{ mentor.job }}</div>
           <a
             :href="mentor.socialUrl"
             target="_blank"
             class="socials flex gap-3 items-center"
           >
-            <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
-            <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
+            <div class="icon">
+              <img :src="mentor.socialicon" alt="" class="" />
+            </div>
+            <div class="handle text-lg underline">
+              {{ mentor.socialhandle }}
+            </div>
           </a>
         </div>
       </div>
@@ -54,7 +64,9 @@ export default defineComponent({
   },
   computed: {
     filteredMentors() {
-      return mEditions.filter((mentor) => mentor.edition.includes(this.selectedEdition));
+      return mEditions.filter((mentor) =>
+        mentor.edition.includes(this.selectedEdition)
+      );
     },
     shuffledMentors() {
       return this.shuffleArray(this.filteredMentors);
