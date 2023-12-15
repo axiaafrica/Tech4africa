@@ -90,4 +90,14 @@ export default defineComponent({
   padding: 12px 20px;
   font-weight: 500;
 }
+
+.gallerybox {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.mentor {
+  display: inline-block;
+}
 </style>

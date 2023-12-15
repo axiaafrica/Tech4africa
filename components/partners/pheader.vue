@@ -10,7 +10,7 @@
               Become one the bootcamp sponsors
             </div>
             <div
-              class="text-greytext lg:hidden block sm:text-[1.5rem] text-[0.75rem]"
+              class="text-greytext lg:hidden block sm:text-[1.5rem] text-[0.75rem] rainbow"
             >
               Why Tech for Africa bootcamp?
             </div>
