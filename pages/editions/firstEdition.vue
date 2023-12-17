@@ -29,7 +29,7 @@
       </div>
 
       <div class="editions bg-btnblue px-7 xl:px-[120px] py-4 md:py-0 mt-12">
-        <div class="sponsortitle text-center lg:px-60 md:py-16 sm:pb-16">
+        <div class="sponsortitle text-center xl:px-60 md:py-16 sm:pb-16">
           <div
             class="text-drkblue sm:text-[32px] text-[1.25rem] py-[1.5rem] sm:pt-[3.44rem] sm:pb-[0.75rem] sm:py-0 font-semibold"
           >

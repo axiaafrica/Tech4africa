@@ -10,7 +10,7 @@
       </div>
       <div class="flex justify-center mt-8">
         <h1
-          class="text-base md:text-[28px] font-semibold px-1 md:px-44 text-center sm:leading-[2.625rem] leading-[1.5rem]"
+          class="text-base md:text-[28px] font-semibold px-5 md:px-44 text-center sm:leading-[2.625rem] leading-[1.5rem]"
         >
           These feature highlights the remarkable journey of the bootcamp and
           its profound impact on tech education in Africa.

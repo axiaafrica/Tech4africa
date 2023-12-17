@@ -8,7 +8,7 @@
       </div>
     </div>
     <div
-      class="headermain mt-12 flex flex-col lg:flex-row justify-center items-center lg:justify-between gap-8"
+      class="headermain mt-12 flex flex-col lg:flex-row justify-center items-center lg:justify-between gap-8 lg:px-7 xl:px-0 px-0"
     >
       <div class="leftside lg:w-1/2 sm:px-16 lg:px-0 px-7">
         <div
