@@ -2,13 +2,13 @@
   <div class="reviews-conatiner my-20">
     <div class="title-conatiner flex justify-center">
       <div class="bordered-title">
-        <div class="pink-container-b text-base md:text-xl">
+        <div class="pink-container-b sm:text-base text-sm md:text-xl">
           Reviews from the {{ edition }} edition beneficiaries
         </div>
       </div>
     </div>
     <div
-      class="bigtitle text-base md:text-[28px] font-semibold text-blkblk mt-10 text-center px-3 md:px-40"
+      class="bigtitle sm:text-base text-sm md:text-[28px] font-semibold text-blkblk mt-10 text-center px-7 sm:px-20 md:px-40"
     >
       Here's what some of our participants had to say about their transformative
       experience at the {{ title }} bootcamp
@@ -26,12 +26,18 @@
               class="pink-container text-semiblk w-[293px] md:w-[342px] h-[200px] md:h-[274px] overflow-hidden"
             >
               <div class="titlee flex justify-between items-center mb-4">
-                <div class="maintitle text-greytext text-sm md:text-xl font-semibold">
+                <div
+                  class="maintitle text-greytext text-sm md:text-xl font-semibold"
+                >
                   {{ card.name }}
                 </div>
-                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+                <div class="icon">
+                  <img :src="card.icon" alt="" class="w-7" />
+                </div>
               </div>
-              <div class="note text-semiblk text-sm md:text-base">{{ card.comment }}</div>
+              <div class="note text-semiblk text-sm md:text-base">
+                {{ card.comment }}
+              </div>
             </div>
           </div>
         </Vue3Marquee>
@@ -45,12 +51,18 @@
               class="pink-container text-semiblk w-[293px] md:w-[342px] h-[200px] md:h-[274px] overflow-hidden"
             >
               <div class="titlee flex justify-between items-center mb-4">
-                <div class="maintitle text-greytext text-sm md:text-xl font-semibold">
+                <div
+                  class="maintitle text-greytext text-sm md:text-xl font-semibold"
+                >
                   {{ card.name }}
                 </div>
-                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+                <div class="icon">
+                  <img :src="card.icon" alt="" class="w-7" />
+                </div>
               </div>
-              <div class="note text-semiblk text-sm md:text-base">{{ card.comment }}</div>
+              <div class="note text-semiblk text-sm md:text-base">
+                {{ card.comment }}
+              </div>
             </div>
           </div>
         </Vue3Marquee>

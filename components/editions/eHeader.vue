@@ -1,36 +1,48 @@
 <template>
   <div class="container-center pt-24">
-    <div class="toptitle mt-10 flex justify-center">
+    <div class="toptitle sm:mt-10 mt-[1.41rem] flex justify-center">
       <div class="pinkbg px-10 py-2 font-semibold">
-        <div class="text-greytext">{{ edition }} Bootcamp Edition Highlights</div>
+        <div class="text-greytext sm:text-base text-xs">
+          {{ edition }} Bootcamp Edition Highlights
+        </div>
       </div>
     </div>
-    <div class="headermain mt-12 flex justify-between gap-8">
-      <div class="leftside w-1/2">
-        <div class="text-[40px] font-bold">
-          Empowering Tomorrow's Tech Innovators, the journey that launched a thousand
-          dreams.
+    <div
+      class="headermain mt-12 flex flex-col lg:flex-row justify-center items-center lg:justify-between gap-8"
+    >
+      <div class="leftside lg:w-1/2 sm:px-16 lg:px-0 px-7">
+        <div
+          class="sm:text-[40px] font-bold text-[1.25rem] text-center lg:text-left"
+        >
+          Empowering Tomorrow's Tech Innovators, the journey that launched a
+          thousand dreams.
         </div>
-        <div class="text-litgrey text-2xl mt-5 mb-8">
-          This is where it all began, where passion met opportunity, and where tech
-          enthusiasts transformed into tech professionals.
+        <div
+          class="text-litgrey sm:text-2xl text-sm mt-5 mb-8 text-center lg:text-left px-7 lg:px-0"
+        >
+          This is where it all began, where passion met opportunity, and where
+          tech enthusiasts transformed into tech professionals.
         </div>
         <div class="firsthiglight text-textblk flex gap-3 items-start mt-16">
           <img src="../../assets/images/editions/rainbowcheck.svg" alt="" />
           <div class="texts">
-            <div class="font-semibold text-2xl">{{ firsttitle }}</div>
-            <p class="text-lg mt-3">
+            <div class="font-semibold sm:text-2xl text-base">
+              {{ firsttitle }}
+            </div>
+            <p class="sm:text-lg text-sm mt-3">
               {{ firstnote }}
             </p>
           </div>
         </div>
       </div>
-      <div class="rightside w-1/2 flex flex-col gap-6">
+      <div class="rightside lg:w-1/2 sm:px-16 px-7 lg:px-0 flex flex-col gap-6">
         <div class="secondhiglight text-textblk flex gap-3 items-start">
           <img src="../../assets/images/editions/rainbowcheck.svg" alt="" />
           <div class="texts">
-            <div class="font-semibold text-2xl">{{ secondtitle }}</div>
-            <p class="text-lg mt-3">
+            <div class="font-semibold sm:text-2xl text-base">
+              {{ secondtitle }}
+            </div>
+            <p class="sm:text-lg text-sm mt-3">
               {{ secondnote }}
             </p>
           </div>
@@ -38,8 +50,10 @@
         <div class="thirdhiglight text-textblk flex gap-3 items-start">
           <img src="../../assets/images/editions/rainbowcheck.svg" alt="" />
           <div class="texts">
-            <div class="font-semibold text-2xl">{{ thirdtitle }}</div>
-            <p class="text-lg mt-3">
+            <div class="font-semibold sm:text-2xl text-base">
+              {{ thirdtitle }}
+            </div>
+            <p class="sm:text-lg text-sm mt-3">
               {{ thirdnote }}
             </p>
           </div>
@@ -47,8 +61,10 @@
         <div class="fourthhiglight text-textblk flex gap-3 items-start">
           <img src="../../assets/images/editions/rainbowcheck.svg" alt="" />
           <div class="texts">
-            <div class="font-semibold text-2xl">{{ fourthtitle }}</div>
-            <p class="text-lg mt-3">
+            <div class="font-semibold sm:text-2xl text-base">
+              {{ fourthtitle }}
+            </div>
+            <p class="sm:text-lg text-sm mt-3">
               {{ fourthnote }}
             </p>
           </div>
