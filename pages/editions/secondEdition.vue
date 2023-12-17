@@ -23,23 +23,40 @@
     <div class="editionsSponsors">
       <div class="btnb flex justify-center">
         <div class="btn outerbtn">
-          <button class="titlebtn text-sm md:text-xl">Sponsorship & Incentives</button>
+          <button class="titlebtn text-sm md:text-xl">
+            Sponsorship & Incentives
+          </button>
         </div>
       </div>
       <div class="editions bg-btnblue px-4 md:px-[120px] py-4 md:py-0 mt-12">
-        <div class="sponsortitle text-center px-60 py-16">
-          <div class="text-drkblue text-[32px] font-semibold">
+        <div class="sponsortitle text-center md:px-60 md:py-16 sm:py-10 py-5">
+          <div class="text-drkblue sm:text-[32px] text-[1.25rem] font-semibold py-[1rem] md:py-0">
             Partners Who Made It Possible
           </div>
-          <p class="text-semiblk">
-            We extend our heartfelt gratitude to the partners and sponsors who believed in
-            our mission and supported us during our second edition
+          <p
+            class="text-semiblk text-sm sm:text-base leading-[1.3125rem] hidden md:block"
+          >
+            We extend our heartfelt gratitude to the partners and sponsors who
+            believed in our mission and supported us during our second edition
+          </p>
+          <p
+            class="text-semiblk text-sm sm:text-base leading-[1.3125rem] block md:hidden"
+          >
+            <p
+            class="text-semiblk text-sm sm:text-base leading-[1.3125rem] md:hidden block sm:px-28 px-7 pb-2 sm:pb-0"
+          >
+            Here’s what some of our participants had to say about their transformative experiences at the first bootcamp
+          </p>
           </p>
         </div>
         <div class="bigbox bg-white p-3 md:p-5">
-          <div class="editionboxes bg-btnblue p-5 px-72 flex flex-col gap-3">
+          <div class="editionboxes bg-btnblue p-5 md:px-72 flex flex-col gap-3">
             <div class="redicon">
-              <img src="../../assets/images/icons/redglobe.svg" alt="" class="" />
+              <img
+                src="../../assets/images/icons/redglobe.svg"
+                alt=""
+                class=""
+              />
             </div>
             <div class="edition-name font-semibold">
               2nd bootcamp - Official sponsor of this edition.
@@ -51,9 +68,10 @@
               </div>
             </div>
             <div class="summery text-semiblk text-xs md:text-base">
-              We partnered with Clickpay to bring the first edition of the bootcamp to
-              live. Tech for Africa Bootcamp by Axia Africa" provide individuals with
-              first-hand knowledge and practical skills necessary to kickstart their
+              We partnered with Clickpay to bring the first edition of the
+              bootcamp to live. Tech for Africa Bootcamp by Axia Africa" provide
+              individuals with first-hand knowledge and practical skills
+              necessary to kickstart their
             </div>
             <div class="bootimg bg-axiablue w-full px-8 h-[140px] md:h-[319px]">
               <img
@@ -69,7 +87,10 @@
               >
                 See more
                 <span
-                  ><img src="../../assets/images/icons/arrowright.svg" alt="" class=""
+                  ><img
+                    src="../../assets/images/icons/arrowright.svg"
+                    alt=""
+                    class=""
                 /></span>
               </a>
             </div>
@@ -78,14 +99,16 @@
         <div class="waitlist bg-white px-5 pb-5 pt-8">
           <div class="waitlistbox bg-btnblue">
             <div class="p-5 flex justify-center">
-              <div class="waitlistinfo max-w-[614px] text-center flex flex-col gap-5">
-                <div class="join text-base md:text-[28px] font-semibold px-20">
+              <div
+                class="waitlistinfo max-w-[614px] text-center flex flex-col gap-5"
+              >
+                <div class="join text-base md:text-[28px] font-semibold md:px-20 px-12">
                   Become a Partner sponsor of our next bootcamp
                 </div>
                 <p class="hello px-14 md:px-8 text-sm md:text-base">
-                  Tech for Africa Bootcamp by Axia Africa" provide individuals with
-                  first-hand knowledge and practical skills necessary to kickstart their
-                  journey in the tech industry.
+                  Tech for Africa Bootcamp by Axia Africa" provide individuals
+                  with first-hand knowledge and practical skills necessary to
+                  kickstart their journey in the tech industry.
                 </p>
                 <form action="" class="flex flex-col gap-3 px-14">
                   <input
@@ -93,10 +116,12 @@
                     name=""
                     id=""
                     placeholder="Axiaafrica@gmail.com"
-                    class="px-5 py-4 rounded-lg placeholder:text-sm md:placeholder:text-base"
+                    class="sm:px-5 px-12 py-4 rounded-lg placeholder:text-sm md:placeholder:text-base"
                   />
                   <div class="btn mt-3">
-                    <button class="bluebtn text-sm md:text-base">Reach out to us</button>
+                    <button class="bluebtn text-sm md:text-base">
+                      Reach out to us
+                    </button>
                   </div>
                 </form>
               </div>
@@ -111,29 +136,41 @@
         <div
           class="borderbox flex justify-center items-center gap-6 px-5 py-3 border-[1px] border-[#F3F2F0] text-2xl"
         >
-          <button class="active">2nd edition mentors</button>
+          <button class="active sm:text-base text-sm">2nd edition mentors</button>
         </div>
       </div>
 
       <div class="gallerybox mt-6 bg-litpink py-16 px-3">
-        <div class="mentorbox container-center grid grid-cols-4 gap-y-20 gap-x-4">
+        <div
+          class="mentorbox container-center grid grid-cols-4 gap-y-20 gap-x-4"
+        >
           <div
             class="mentor w-full flex flex-col gap-1"
             v-for="mentor in Edition2"
             :key="mentor.id"
           >
             <div class="picture w-[300px] md:w-full h-[300px]">
-              <img :src="mentor.picture" alt="" class="w-full h-full object-cover" />
+              <img
+                :src="mentor.picture"
+                alt=""
+                class="w-full h-full object-cover"
+              />
             </div>
-            <div class="mentorname text-lg font-bold">{{ mentor.mentorname }}</div>
+            <div class="mentorname text-lg font-bold">
+              {{ mentor.mentorname }}
+            </div>
             <div class="mentorname">{{ mentor.job }}</div>
             <a
               :href="mentor.socialUrl"
               target="_blank"
               class="socials flex gap-3 items-center"
             >
-              <div class="icon"><img :src="mentor.socialicon" alt="" class="" /></div>
-              <div class="handle text-lg underline">{{ mentor.socialhandle }}</div>
+              <div class="icon">
+                <img :src="mentor.socialicon" alt="" class="" />
+              </div>
+              <div class="handle text-lg underline">
+                {{ mentor.socialhandle }}
+              </div>
             </a>
           </div>
         </div>

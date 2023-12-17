@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="btnb container-center flex flex-col gap-8 text-center items-center mt-20"
+      class="btnb container-center flex flex-col gap-8 text-center items-center mt-20 mb-5"
     >
       <div class="btn outerbtn">
         <button class="titlebtn text-sm md:text-xl hidden lg:block">
@@ -21,16 +21,40 @@
     </div>
     <div class="editions bg-btnblue px-7 md:px-[120px] py-4 md:py-10 mt-12">
       <div class="editionsboxess">
-        <div class="bigbox bg-white p-3 md:p-5">
+        <div class="bigbox bg-white p-3 md:p-5 h-auto">
           <div
-            class="bg-btnblue rounded-xl p-5 grid sm:grid-cols-3 grid-rows-3 gap-5"
+            class="bg-btnblue rounded-xl p-5 grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-5"
           >
-            <img src="../../assets/images/editions/editionpic1.png" alt="" />
-            <img src="../../assets/images/editions/editionpic2.png" alt="" />
-            <img src="../../assets/images/editions/editionpic1.png" alt="" />
-            <img src="../../assets/images/editions/editionpic3.png" alt="" />
-            <img src="../../assets/images/editions/editionpic3.png" alt="" />
-            <img src="../../assets/images/editions/editionpic3.png" alt="" />
+            <img
+              src="../../assets/images/editions/editionpic1.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
+            <img
+              src="../../assets/images/editions/editionpic2.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
+            <img
+              src="../../assets/images/editions/editionpic1.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
+            <img
+              src="../../assets/images/editions/editionpic3.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
+            <img
+              src="../../assets/images/editions/editionpic3.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
+            <img
+              src="../../assets/images/editions/editionpic3.png"
+              alt=""
+              class="w-full h- full object-cover"
+            />
           </div>
         </div>
       </div>
