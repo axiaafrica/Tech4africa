@@ -68,6 +68,7 @@
                 class="h-full w-full object-cover"
               />
             </div>
+            <!-- <nuxt-link to="/editions/firstEdition"> -->
             <div class="see">
               <a href="" class="flex items-center gap-2 text-axiared underline">
                 See more
@@ -79,6 +80,7 @@
                 /></span>
               </a>
             </div>
+            <!-- </nuxt-link> -->
           </div>
         </div>
       </div>

@@ -42,26 +42,30 @@
             <h2 class="mb-3 font-semibold">About</h2>
             <ul class="flex flex-col gap-2 text-base md:text-xl">
               <nuxt-link to="/mentors">
-                <li class="text-[15px]">Mentors</li>
+                <li class="text-[15px] hover:underline">Mentors</li>
               </nuxt-link>
               <nuxt-link to="/partners">
-                <li class="text-[15px]">Partners</li>
+                <li class="text-[15px] hover:underline">Partners</li>
               </nuxt-link>
             </ul>
           </div>
           <div class="text-xl">
             <h2 class="mb-3 font-semibold">Editions</h2>
             <ul class="flex flex-col gap-2 text-base md:text-xl">
-              <li>
-                <a href="#" class="hover:underline text-[15px]"
-                  >1st bootcamp highlights</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:underline text-[15px]"
-                  >2nd bootcamp highlights</a
-                >
-              </li>
+              <nuxt-link to="/editions/firstEdition">
+                <li>
+                  <p class="hover:underline text-[15px]">
+                    1st bootcamp highlights
+                  </p>
+                </li>
+              </nuxt-link>
+              <nuxt-link to="/editions/secondEdition">
+                <li>
+                  <p class="hover:underline text-[15px]">
+                    2nd bootcamp highlights
+                  </p>
+                </li>
+              </nuxt-link>
             </ul>
           </div>
         </div>

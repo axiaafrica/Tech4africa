@@ -70,13 +70,15 @@
                       Become a sponsor
                     </button>
                   </li>
-                  <li class="waitlist-btn">
-                    <button
-                      class="btn1 text-white font-semibold rounded-lg bluebtn"
-                    >
-                      Join waitlist
-                    </button>
-                  </li>
+                  <nuxt-link to="/register">
+                    <li class="waitlist-btn">
+                      <button
+                        class="btn1 text-white font-semibold rounded-lg bluebtn"
+                      >
+                        Join waitlist
+                      </button>
+                    </li></nuxt-link
+                  >
                 </ul>
               </div>
             </div>

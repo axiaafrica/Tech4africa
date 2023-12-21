@@ -11,6 +11,7 @@
     <LazyLandingMentors />
     <LazyLandingEditions />
     <LazyLandingBlog />
+    <LandingRegister />
   </main>
 </template>
 

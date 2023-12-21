@@ -22,7 +22,7 @@
     >
       <div class="cert-container container-center bg-white p-5">
         <div
-          class="certs-gallery bg-btnblue grid sm:grid-cols-3 grid-rows-3 gap-8 place-content-center p-4 w-full"
+          class="certs-gallery bg-btnblue grid sm:grid-cols-3 grid-cols-1 gap-8 place-content-center p-4 w-full"
         >
           <img
             src="../../assets/images/mentors/cert1.png"
@@ -85,8 +85,18 @@
                   class="sm:px-5 px-10 py-4 rounded-lg"
                 />
                 <div class="btn mt-3 hidden lg:block">
-                  <button class="bluebtn">Become a mentor</button>
+                  <button
+                    @click="showMentorModal"
+                    class="bluebtn text-sm sm:text-base"
+                  >
+                    Become a Mentor
+                  </button>
                 </div>
+                <mentor-modal
+                  :show-modal="isMentorModalVisible"
+                  @submit="onSubmit"
+                  @close="onClose"
+                />
                 <div class="btn mt-3 lg:hidden">
                   <button class="bluebtn">Join the waiting list</button>
                 </div>
@@ -99,6 +109,23 @@
   </div>
 </template>
 
-<script></script>
+<script setup lang="ts">
+import { ref } from "vue";
+import MentorModal from "../mentors/MentorModal.vue";
+
+const isMentorModalVisible = ref(false);
+
+const showMentorModal = () => {
+  isMentorModalVisible.value = true;
+};
+
+const onSubmit = () => {
+  isMentorModalVisible.value = false;
+};
+
+const onClose = () => {
+  isMentorModalVisible.value = false;
+};
+</script>
 
 <style></style>

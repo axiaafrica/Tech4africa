@@ -8,10 +8,10 @@
       </div>
     </div>
     <div
-      class="bigtitle text-base md:text-[28px] font-semibold text-blkblk mt-10 text-center px-3 md:px-40"
+      class="bigtitle text-base md:text-[28px] font-semibold leading-normal text-blkblk mt-10 text-center px-3 md:px-40"
     >
-      Here's how each type of partnership can contribute to the success of the "Tech for
-      Africa Bootcamp by Axia Africa
+      Here's how each type of partnership can contribute to the success of the
+      "Tech for Africa Bootcamp by Axia Africa
     </div>
     <div class="reviwss relative">
       <div class="overlay absolute w-full h-full top-0 left-0 z-30"></div>
@@ -26,12 +26,18 @@
               class="pink-container text-semiblk w-[293px] md:w-[342px] h-[200px] md:h-[274px] overflow-hidden"
             >
               <div class="titlee flex justify-between items-center mb-4">
-                <div class="maintitle text-greytext text-sm md:text-xl font-semibold">
+                <div
+                  class="maintitle text-greytext text-sm md:text-xl font-semibold"
+                >
                   {{ card.name }}
                 </div>
-                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+                <div class="icon">
+                  <img :src="card.icon" alt="" class="w-7" />
+                </div>
               </div>
-              <div class="note text-semiblk text-sm md:text-base">{{ card.comment }}</div>
+              <div class="note text-semiblk text-sm md:text-base">
+                {{ card.comment }}
+              </div>
             </div>
           </div>
         </Vue3Marquee>
@@ -45,12 +51,18 @@
               class="pink-container text-semiblk w-[293px] md:w-[342px] h-[200px] md:h-[274px] overflow-hidden"
             >
               <div class="titlee flex justify-between items-center mb-4">
-                <div class="maintitle text-greytext text-sm md:text-xl font-semibold">
+                <div
+                  class="maintitle text-greytext text-sm md:text-xl font-semibold"
+                >
                   {{ card.name }}
                 </div>
-                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+                <div class="icon">
+                  <img :src="card.icon" alt="" class="w-7" />
+                </div>
               </div>
-              <div class="note text-semiblk text-sm md:text-base">{{ card.comment }}</div>
+              <div class="note text-semiblk text-sm md:text-base">
+                {{ card.comment }}
+              </div>
             </div>
           </div>
         </Vue3Marquee>
@@ -64,17 +76,25 @@
               class="pink-container text-semiblk w-[293px] md:w-[342px] h-[200px] md:h-[274px] overflow-hidden"
             >
               <div class="titlee flex justify-between items-center mb-4">
-                <div class="maintitle text-greytext text-sm md:text-xl font-semibold">
+                <div
+                  class="maintitle text-greytext text-sm md:text-xl font-semibold"
+                >
                   {{ card.name }}
                 </div>
-                <div class="icon"><img :src="card.icon" alt="" class="w-7" /></div>
+                <div class="icon">
+                  <img :src="card.icon" alt="" class="w-7" />
+                </div>
               </div>
-              <div class="note text-semiblk text-sm md:text-base">{{ card.comment }}</div>
+              <div class="note text-semiblk text-sm md:text-base">
+                {{ card.comment }}
+              </div>
             </div>
           </div>
         </Vue3Marquee>
       </div>
-      <div class="bluebtn-box hidden md:flex justify-center mt-12 font-semibold">
+      <div
+        class="bluebtn-box hidden md:flex justify-center mt-12 font-semibold"
+      >
         <div class="bluebtn">See more reviews</div>
       </div>
     </div>

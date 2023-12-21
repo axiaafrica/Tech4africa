@@ -34,7 +34,7 @@
             Partners Who Made It Possible
           </div>
           <p
-            class="text-semiblk text-sm sm:text-base leading-[1.3125rem] hidden md:block"
+            class="text-semiblk text-sm sm:text-base leading-[1.3125rem] hidden md:block lg:px-20"
           >
             We extend our heartfelt gratitude to the partners and sponsors who
             believed in our mission and supported us during our second edition
@@ -102,7 +102,7 @@
               <div
                 class="waitlistinfo max-w-[614px] text-center flex flex-col gap-5"
               >
-                <div class="join text-base md:text-[28px] font-semibold md:px-20 px-12">
+                <div class="join text-base md:text-[28px] font-semibold md:px-20 px-12 leading-normal">
                   Become a Partner sponsor of our next bootcamp
                 </div>
                 <p class="hello px-14 md:px-8 text-sm md:text-base">

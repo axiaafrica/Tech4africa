@@ -23,13 +23,17 @@
           This is where it all began, where passion met opportunity, and where
           tech enthusiasts transformed into tech professionals.
         </div>
-        <div class="firsthiglight text-textblk flex gap-3 items-start mt-16">
-          <img src="../../assets/images/editions/rainbowcheck.svg" alt="" />
+        <div class="firsthiglight text-textblk flex gap-3 items-start lg:mt-16">
+          <img
+            src="../../assets/images/editions/rainbowcheck.svg"
+            alt=""
+            class="hidden lg:block"
+          />
           <div class="texts">
-            <div class="font-semibold sm:text-2xl text-base">
+            <div class="font-semibold sm:text-2xl text-base hidden lg:block">
               {{ firsttitle }}
             </div>
-            <p class="sm:text-lg text-sm mt-3">
+            <p class="sm:text-lg text-sm mt-3 hidden lg:block">
               {{ firstnote }}
             </p>
           </div>
@@ -66,6 +70,21 @@
             </div>
             <p class="sm:text-lg text-sm mt-3">
               {{ fourthnote }}
+            </p>
+          </div>
+        </div>
+        <div class="firsthiglight text-textblk flex gap-3 items-start">
+          <img
+            src="../../assets/images/editions/rainbowcheck.svg"
+            alt=""
+            class="block lg:hidden"
+          />
+          <div class="texts">
+            <div class="font-semibold sm:text-2xl text-base block lg:hidden">
+              {{ firsttitle }}
+            </div>
+            <p class="sm:text-lg text-sm mt-3 block lg:hidden">
+              {{ firstnote }}
             </p>
           </div>
         </div>

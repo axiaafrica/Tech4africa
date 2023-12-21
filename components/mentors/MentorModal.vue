@@ -16,27 +16,33 @@
         </p>
         <form>
           <div
-            class="name-link flex flex-col sm:flex-row sm:justify-between w-full mt-4"
+            class="name-link flex flex-col sm:flex-row sm:justify-between w-full mt-4 gap-2"
           >
-            <div class="fname sm:w-1/2 w-full sm:text-base text-xs">
-              <div for="fullName" class="formlabel">Your full name</div>
+            <div class="fname sm:w-1/2 md:w-1/2 w-full">
+              <div for="fullName" class="formlabel sm:text-base text-xs">
+                Your full name
+              </div>
               <input
                 type="text"
                 placeholder="Axia Africa"
-                class="text-[#424040] text-xl p-3 w-full bg-[#f6f5f3] rounded-xl"
+                class="text-[#424040] text-xl p-3 w-full lg:w-[19.375rem] sm:w-[17.375rem] bg-[#f6f5f3] rounded-xl"
               />
             </div>
-            <div class="linkedin sm:w-1/2 w-full mt-5 sm:mt-0">
-              <div for="linkedin" class="formlabel">Your LinkedIn URL</div>
+            <div class="linkedin sm:w-1/2 w-full mt-5 sm:-mt-1 lg:-mt-0">
+              <div for="linkedin" class="formlabel sm:text-base text-xs">
+                Your LinkedIn URL
+              </div>
               <input
                 type="text"
                 placeholder="Axiaafrica@gmail.com"
-                class="text-[#424040] text-xl p-3 w-full bg-[#f6f5f3] rounded-xl"
+                class="text-[#424040] text-xl p-3 w-full lg:w-[19.375rem] sm:w-[17.375rem] bg-[#f6f5f3] rounded-xl"
               />
             </div>
           </div>
           <div class="email w-full mt-6">
-            <div for="fullName" class="formlabel">Email</div>
+            <div for="fullName" class="formlabel sm:text-base text-xs">
+              Email
+            </div>
             <input
               type="text"
               placeholder="Axiaafrica@gmail.com"
@@ -44,7 +50,10 @@
             />
           </div>
           <div class="w-full mt-6">
-            <div for="dropdown" class="formlabel">
+            <div
+              for="dropdown"
+              class="formlabel sm:text-base text-xs leading-normal"
+            >
               What course do you want to mentor in ?
             </div>
             <select
@@ -64,7 +73,7 @@
           </div>
         </form>
         <div class="mt-6">
-          <button class="bluebtn text-lg mr-2" @click="submitForm">
+          <button class="bluebtn sm:text-lg text-sm mr-2" @click="submitForm">
             Submit application
           </button>
         </div>

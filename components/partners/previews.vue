@@ -6,7 +6,7 @@
       <div class="btnb flex justify-center">
         <div class="btn outerbtn2">
           <button class="titlebtn2 sm:text-xl text-[0.875rem]">
-            Reviews From our patners
+            Reviews From our partners
           </button>
         </div>
       </div>

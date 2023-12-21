@@ -34,7 +34,7 @@
             Total courses
           </div>
           <div
-            class="ratenum text-drkblue sm:text-[56px] sm:text-left text-center text-[1.5rem] font-bold"
+            class="ratenum text-drkblue sm:text-[56px] lg:text-left text-center text-[1.5rem] font-bold"
           >
             5
           </div>
