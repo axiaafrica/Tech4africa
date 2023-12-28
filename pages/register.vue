@@ -10,7 +10,7 @@
       >
         <div class="p-2">
           <img
-            src="../assets/images/register/TFA LOGO.png"
+            src="../assets/images/register/TFALOGO.png"
             alt=""
             class="sm:w-[13.7102rem] sm:h-[5.1360rem] w-[10rem] h-[3.5rem] object-cover"
             v-motion-fade-visible-once
