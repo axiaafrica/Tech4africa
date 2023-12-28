@@ -80,21 +80,7 @@
                 class="h-full w-full object-cover"
               />
             </div>
-            <!-- <div class="see">
-              <a
-                href=""
-                class="flex items-center gap-2 text-axiared underline text-sm md:text-base"
-              >
-                See more
-                <span
-                  ><img
-                    src="../../assets/images/icons/arrowright.svg"
-                    alt=""
-                    class=""
-                /></span>
-              
-              </a>
-            </div> -->
+           
           </div>
         </div>
         <div class="waitlist bg-white px-5 pb-5 pt-8">
