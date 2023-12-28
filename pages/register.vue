@@ -47,7 +47,7 @@
         </div>
       </div>
       <div
-        class="lg:w-[25rem] sm:w-[37rem] xl:w-[35.12rem] w-[20rem] h-[50.125rem] lg:py-[2.52rem] sm:py-[4.5rem] sm:px-5 lg:px-0 pt-12 sm:pt-0"
+        class="lg:w-[25rem] sm:w-[37rem] xl:w-[35.12rem] w-[20rem] h-[50.125rem] lg:py-[2.52rem] sm:py-[4.5rem] sm:px-5 lg:px-0 pt-12 sm:pt-0 lg:pt-10"
       >
         <div
           class="sm:text-[2rem] text-[1.5rem] font-medium leading-normal sm:leading-[3rem] text-[#1B1818]"

@@ -19,7 +19,10 @@
             class="name-link flex flex-col sm:flex-row sm:justify-between w-full mt-4 gap-2"
           >
             <div class="fname sm:w-1/2 md:w-1/2 w-full">
-              <div for="fullName" class="formlabel sm:text-base text-xs">
+              <div
+                for="fullName"
+                class="formlabel sm:text-base text-xs text-left"
+              >
                 Your full name
               </div>
               <input
@@ -29,7 +32,10 @@
               />
             </div>
             <div class="linkedin sm:w-1/2 w-full mt-5 sm:-mt-1 lg:-mt-0">
-              <div for="linkedin" class="formlabel sm:text-base text-xs">
+              <div
+                for="linkedin"
+                class="formlabel sm:text-base text-xs text-left"
+              >
                 Your LinkedIn URL
               </div>
               <input
@@ -40,7 +46,10 @@
             </div>
           </div>
           <div class="email w-full mt-6">
-            <div for="fullName" class="formlabel sm:text-base text-xs">
+            <div
+              for="fullName"
+              class="formlabel sm:text-base text-xs text-left"
+            >
               Email
             </div>
             <input
@@ -52,7 +61,7 @@
           <div class="w-full mt-6">
             <div
               for="dropdown"
-              class="formlabel sm:text-base text-xs leading-normal"
+              class="formlabel sm:text-base text-xs leading-normal text-left"
             >
               What course do you want to mentor in ?
             </div>

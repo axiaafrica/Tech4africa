@@ -1,11 +1,13 @@
 <template>
   <div class="main relative">
     <div
-      class="navbar fixed top-0 left-0 py-4 md:px-0 px-3 w-full z-30 bg-white overflow-hidden"
+      class="navbar fixed top-0 left-0 py-4 md:px-0 px-3 w-full z-30 overflow-hidden bg-white"
     >
       <div class="lgscreens">
         <div class="mainn container-center">
-          <div class="navbox flex justify-between items-center overflow-hidden">
+          <div
+            class="navbox flex justify-between items-center overflow-hidden hover:bootcamp-container-visible"
+          >
             <nuxt-link to="/">
               <div class="logobox">
                 <img
@@ -135,9 +137,11 @@
             </button>
           </li>
           <li class="waitlist-btn">
-            <button class="btn1 text-white font-semibold rounded-lg bluebtn">
-              Join waitlist
-            </button>
+            <nuxt-link to="/register">
+              <button class="btn1 text-white font-semibold rounded-lg bluebtn">
+                Join waitlist
+              </button>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -147,10 +151,24 @@
 
 <script setup>
 const showMenu = ref(false);
+const isDropdownVisible = ref(true);
 
 const toggleMenu = () => {
   showMenu.value = !showMenu.value;
 };
+
+const toggleDropdown = (value) => {
+  console.log("drop", value);
+  isDropdownVisible.value = value;
+};
 </script>
 
-<style></style>
+<style scoped>
+.bootcamp-container {
+  position: absolute;
+  top: 100%;
+  right: 480px;
+  /* display: none; */
+  transform: translateY(100%);
+}
+</style>

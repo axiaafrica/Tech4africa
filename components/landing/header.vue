@@ -15,21 +15,33 @@
         class="unlock text-drkblue text-xl md:text-[28px] md:px-0 px-6 lg:text-[32px] leading-[130%] font-semibold"
       >
         Unlock your potentials, <span class="rainbow">gain</span> valuable
-        <span class="rainbow">skills</span> to kickstart your tech journey for free .
+        <span class="rainbow">skills</span> to kickstart your tech journey for
+        free .
       </div>
-      <div class="experience text-litgrey text-sm md:text-xl lg:text-2xl md:px-0 px-7">
+      <div
+        class="experience text-litgrey text-sm md:text-xl lg:text-2xl md:px-0 px-7"
+      >
         Experience world-class mentorship, cutting-edge learning, and endless
-        opportunities. It's not just a bootcamp; it's a journey towards a brighter future.
+        opportunities. It's not just a bootcamp; it's a journey towards a
+        brighter future.
       </div>
-      <div class="register-review flex md:flex-row flex-col gap-3 md:gap-8 items-center">
-        <button
-          class="register-btn bluebtn text-white px-20 md:px-8 text-xs md:text-sm lg:text-base"
+      <div
+        class="register-review flex md:flex-row flex-col gap-3 md:gap-8 items-center"
+      >
+        <nuxt-link to="/register">
+          <button
+            class="register-btn bluebtn text-white px-20 md:px-8 text-xs md:text-sm lg:text-base"
+          >
+            Register now
+          </button></nuxt-link
         >
-          Register now
-        </button>
         <div class="review text-xs md:text-sm font-semibold text-greytext">
-          <p class="inline md:block mr-1 md:mr-0">Over 200 thousand + beneficiaries,</p>
-          <button class="text-axiared underline inline md:block">see reviews here</button>
+          <p class="inline md:block mr-1 md:mr-0">
+            Over 200 thousand + beneficiaries,
+          </p>
+          <button class="text-axiared underline inline md:block">
+            <a href="#reviews"> see reviews here</a>
+          </button>
         </div>
       </div>
     </div>

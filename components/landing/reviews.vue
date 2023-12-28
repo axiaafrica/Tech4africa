@@ -8,6 +8,7 @@
       </div>
     </div>
     <div
+      id="reviews"
       class="bigtitle text-base md:text-[28px] font-semibold leading-normal text-blkblk mt-10 text-center px-3 md:px-40"
     >
       Here's how each type of partnership can contribute to the success of the
@@ -95,7 +96,7 @@
       <div
         class="bluebtn-box hidden md:flex justify-center mt-12 font-semibold"
       >
-        <div class="bluebtn">See more reviews</div>
+        <!-- <div class="bluebtn">See more reviews</div> -->
       </div>
     </div>
   </div>

@@ -104,9 +104,11 @@
                   class="px-5 py-4 rounded-lg placeholder:text-sm md:placeholder:text-base"
                 />
                 <div class="btn mt-3">
-                  <button class="bluebtn text-sm md:text-base">
-                    Join the waiting list
-                  </button>
+                  <nuxt-link to="/register">
+                    <button class="bluebtn text-sm md:text-base">
+                      Join the waiting list
+                    </button>
+                  </nuxt-link>
                 </div>
               </form>
             </div>

@@ -8,7 +8,7 @@
       </div>
     </div>
     <div
-      class="bigtitle sm:text-base md:leading-[1.775rem] sm:leading-[1.125rem] text-sm md:text-[28px] font-semibold text-blkblk mt-10 text-center px-8 sm:px-20 md:px-40"
+      class="bigtitle sm:text-base lg:leading-[2.5rem] leading-normal sm:leading-[1.125rem] text-sm md:text-[28px] font-semibold text-blkblk mt-10 text-center px-8 sm:px-20 md:px-40"
     >
       Here's what some of our participants had to say about their transformative
       experience at the {{ title }} bootcamp

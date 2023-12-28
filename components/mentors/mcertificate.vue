@@ -87,18 +87,23 @@
                 <div class="btn mt-3 hidden lg:block">
                   <button
                     @click="showMentorModal"
-                    class="bluebtn text-sm sm:text-base"
+                    class="bluebtn text-sm sm:text-base bg-[#202054]"
+                    type="button"
                   >
-                    Become a Mentor
-                  </button>
+                    Become a Mentor</button
+                  ><mentor-modal
+                    :show-modal="isMentorModalVisible"
+                    @submit="onSubmit"
+                    @close="onClose"
+                  />
                 </div>
-                <mentor-modal
-                  :show-modal="isMentorModalVisible"
-                  @submit="onSubmit"
-                  @close="onClose"
-                />
+
                 <div class="btn mt-3 lg:hidden">
-                  <button class="bluebtn">Join the waiting list</button>
+                  <nuxt-link to="/register">
+                    <button class="bluebtn">
+                      Join the waiting list
+                    </button></nuxt-link
+                  >
                 </div>
               </form>
             </div>

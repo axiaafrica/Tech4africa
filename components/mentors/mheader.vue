@@ -88,9 +88,9 @@
       </div>
 
       <div
-        class="btn mt-14 flex flex-col sm:flex-row sm:justify-center gap-6 items-center"
+        class="btn mt-14 flex flex-col sm:flex-row sm:justify-center gap-6 items-center px-1"
       >
-        <button @click="showMentorModal" class="bluebtn text-sm sm:text-base">
+        <button @click="showMentorModal" class="bluebtn text-xs sm:text-base">
           Become a Mentor
         </button>
         <mentor-modal
@@ -99,7 +99,7 @@
           @close="onClose"
         />
         <div
-          class="text sm:w-[244px] text-xs sm:text-base font-semibold px-3 text-center"
+          class="text sm:w-[244px] text-xs lg:text-base font-semibold px-3 text-center"
         >
           Over 50 professionals mentor for the bootcamp
         </div>

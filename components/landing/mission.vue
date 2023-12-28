@@ -10,15 +10,18 @@
       />
     </div>
     <div class="textss w-full md:w-1/2 text-center md:text-start">
-      <div class="top-text text-xl md:text-[28px] text-greytext font-semibold">
-        Our mission is to empower the next generation of African tech talent and drive
-        positive change in the continent's tech ecosystem.
+      <div
+        class="top-text text-xl md:text-[28px] text-greytext font-semibold leading-relaxed"
+      >
+        Our mission is to empower the next generation of African tech talent and
+        drive positive change in the continent's tech ecosystem.
       </div>
       <div class="bottom-text text-textblk text-sm md:text-lg opacity-80 mt-5">
-        The Tech for Africa Bootcamp represents a pivotal opportunity for Africans to take
-        charge of their future, embrace technology, and lead the continent into a new era
-        of prosperity in the continent’s tech ecosystem and equip Africans with the skills
-        they need to compete in the tech space.
+        The Tech for Africa Bootcamp represents a pivotal opportunity for
+        Africans to take charge of their future, embrace technology, and lead
+        the continent into a new era of prosperity in the continent’s tech
+        ecosystem and equip Africans with the skills they need to compete in the
+        tech space.
       </div>
     </div>
   </div>
